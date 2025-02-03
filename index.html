@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-1 bg-[#FFFFFF]">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Guess The Word</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="og:type" content="website">
+	<meta name="theme-color" content="#ffffff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="description"
+		content="Quran Word By Word Translation, Transliteration And Morphology in English, Urdu, Hindi, Indonesian, Bangla, Turkish, Tamil, French, German, Chinese, Malayalam and Divehi - QuranWBW.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./global.css">
+
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+	<!-- Themes related stuff... putting all this here to ensure there is no white-flash -->
+	<script>
+		window.websiteColors = {
+			1: 'bg-[#FFFFFF]',
+			2: 'bg-[#FFFFFF]',
+			3: 'bg-[#e1e1e1]',
+			4: 'bg-[#e9e3d7]',
+			5: 'bg-[#20161f]',
+			6: 'bg-[#02021b]',
+			7: 'bg-[#001617]',
+			8: 'bg-[#000000]',
+			9: 'bg-[#09090b]'
+		};
+
+		const userSettings = JSON.parse(localStorage.getItem('userSettings'));
+		const usersTheme = userSettings ? +userSettings.displaySettings.websiteTheme : 1;
+
+		function theme(type, id = usersTheme) {
+			try {
+				const themes = {
+					1: {
+						themeName: 'Golden Glint',
+						bgMain: 'bg-[#FFFFFF]',
+						bgSecondary: 'bg-[#b1901f]',
+						bgSecondaryLight: 'bg-[#b1901f]/5',
+						bgSecondaryDark: 'bg-[#b1901f]/15',
+						text: 'text-[#000000]',
+						textSecondary: 'text-[#b1901f]',
+						textBgColor: 'text-[#FFFFFF]',
+						border: 'border-[#b1901f]/20',
+						borderDark: '!border-[#b1901f]',
+						icon: '#b1901f',
+						input: 'focus:border-[#b1901f] focus:ring-[#b1901f]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#b1901f] peer-checked:border-[#b1901f]',
+						toggle: 'bg-[#b1901f]/5 after:bg-[#FFFFFF] after:border-[#FFFFFF] peer-checked:bg-[#b1901f]',
+						slider: 'bg-[#b1901f]/10 [&::-webkit-slider-thumb]:!bg-[#b1901f]',
+						hover: 'hover:bg-[#b1901f]/5',
+						hoverBorder: 'border border-transparent hover:border-[#b1901f]',
+						via: 'via-[#b1901f]',
+						placeholder: 'placeholder:text-[#b1901f]/50'
+					},
+					2: {
+						themeName: 'Classic Light',
+						bgMain: 'bg-[#FFFFFF]',
+						bgSecondary: 'bg-[#000000]',
+						bgSecondaryLight: 'bg-[#000000]/5',
+						bgSecondaryDark: 'bg-[#000000]/15',
+						text: 'text-[#000000]',
+						textSecondary: 'text-[#000000]',
+						textBgColor: 'text-[#FFFFFF]',
+						border: 'border-[#000000]/20',
+						borderDark: '!border-[#000000]',
+						icon: '#000000',
+						input: 'focus:border-[#000000] focus:ring-[#000000]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#000000] peer-checked:border-[#000000]',
+						toggle: 'bg-[#000000]/5 after:bg-[#FFFFFF] after:border-[#FFFFFF] peer-checked:bg-[#000000]',
+						slider: 'bg-[#000000]/10 [&::-webkit-slider-thumb]:!bg-[#000000]',
+						hover: 'hover:bg-[#000000]/5',
+						hoverBorder: 'border border-transparent hover:border-[#000000]',
+						via: 'via-[#000000]',
+						placeholder: 'placeholder:text-[#000000]/50'
+					},
+					3: {
+						themeName: 'Silver Lining',
+						bgMain: 'bg-[#e1e1e1]',
+						bgSecondary: 'bg-[#000000]',
+						bgSecondaryLight: 'bg-[#000000]/5',
+						bgSecondaryDark: 'bg-[#000000]/15',
+						text: 'text-[#000000]',
+						textSecondary: 'text-[#000000]',
+						textBgColor: 'text-[#e1e1e1]',
+						border: 'border-[#000000]/20',
+						borderDark: '!border-[#000000]',
+						icon: '#000000',
+						input: 'focus:border-[#000000] focus:ring-[#000000]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#000000] peer-checked:border-[#000000]',
+						toggle: 'bg-[#000000]/5 after:bg-[#e1e1e1] after:border-[#e1e1e1] peer-checked:bg-[#000000]',
+						slider: 'bg-[#000000]/10 [&::-webkit-slider-thumb]:!bg-[#000000]',
+						hover: 'hover:bg-[#000000]/5',
+						hoverBorder: 'border border-transparent hover:border-[#000000]',
+						via: 'via-[#000000]',
+						placeholder: 'placeholder:text-[#000000]/50'
+					},
+					4: {
+						themeName: 'Vintage Sepia',
+						bgMain: 'bg-[#e9e3d7]',
+						bgSecondary: 'bg-[#553c0f]',
+						bgSecondaryLight: 'bg-[#553c0f]/5',
+						bgSecondaryDark: 'bg-[#553c0f]/15',
+						text: 'text-[#553c0f]',
+						textSecondary: 'text-[#553c0f]',
+						textBgColor: 'text-[#e9e3d7]',
+						border: 'border-[#553c0f]/20',
+						borderDark: '!border-[#553c0f]',
+						icon: '#553c0f',
+						input: 'focus:border-[#553c0f] focus:ring-[#553c0f]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#553c0f] peer-checked:border-[#553c0f]',
+						toggle: 'bg-[#553c0f]/5 after:bg-[#e9e3d7] after:border-[#e9e3d7] peer-checked:bg-[#553c0f]',
+						slider: 'bg-[#553c0f]/10 [&::-webkit-slider-thumb]:!bg-[#553c0f]',
+						hover: 'hover:bg-[#553c0f]/5',
+						hoverBorder: 'border border-transparent hover:border-[#553c0f]',
+						via: 'via-[#553c0f]',
+						placeholder: 'placeholder:text-[#553c0f]/50'
+					},
+					5: {
+						themeName: 'Mocha Night',
+						bgMain: 'bg-[#20161f]',
+						bgSecondary: 'bg-[#c59f60]',
+						bgSecondaryLight: 'bg-[#c59f60]/5',
+						bgSecondaryDark: 'bg-[#c59f60]/15',
+						text: 'text-[#c59f60]',
+						textSecondary: 'text-[#c59f60]',
+						textBgColor: 'text-[#20161f]',
+						border: 'border-[#c59f60]/20',
+						borderDark: '!border-[#c59f60]',
+						icon: '#c59f60',
+						input: 'focus:border-[#c59f60] focus:ring-[#c59f60]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#c59f60] peer-checked:border-[#c59f60]',
+						toggle: 'bg-[#c59f60]/5 after:bg-[#20161f] after:border-[#20161f] peer-checked:bg-[#c59f60]',
+						slider: 'bg-[#c59f60]/10 [&::-webkit-slider-thumb]:!bg-[#c59f60]',
+						hover: 'hover:bg-[#c59f60]/5',
+						hoverBorder: 'border border-transparent hover:border-[#c59f60]',
+						via: 'via-[#c59f60]',
+						placeholder: 'placeholder:text-[#c59f60]/50'
+					},
+					6: {
+						themeName: 'Midnight Blue',
+						bgMain: 'bg-[#02021b]',
+						bgSecondary: 'bg-[#c2c2c2]',
+						bgSecondaryLight: 'bg-[#c2c2c2]/5',
+						bgSecondaryDark: 'bg-[#c2c2c2]/15',
+						text: 'text-[#c2c2c2]',
+						textSecondary: 'text-[#c2c2c2]',
+						textBgColor: 'text-[#02021b]',
+						border: 'border-[#c2c2c2]/20',
+						borderDark: '!border-[#c2c2c2]',
+						icon: '#c2c2c2',
+						input: 'focus:border-[#c2c2c2] focus:ring-[#c2c2c2]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#c2c2c2] peer-checked:border-[#c2c2c2]',
+						toggle: 'bg-[#c2c2c2]/5 after:bg-[#02021b] after:border-[#02021b] peer-checked:bg-[#c2c2c2]',
+						slider: 'bg-[#c2c2c2]/10 [&::-webkit-slider-thumb]:!bg-[#c2c2c2]',
+						hover: 'hover:bg-[#c2c2c2]/5',
+						hoverBorder: 'border border-transparent hover:border-[#c2c2c2]',
+						via: 'via-[#c2c2c2]',
+						placeholder: 'placeholder:text-[#c2c2c2]/50'
+					},
+					7: {
+						themeName: 'Forest Green',
+						bgMain: 'bg-[#001617]',
+						bgSecondary: 'bg-[#dddddd]',
+						bgSecondaryLight: 'bg-[#dddddd]/5',
+						bgSecondaryDark: 'bg-[#dddddd]/15',
+						text: 'text-[#dddddd]',
+						textSecondary: 'text-[#dddddd]',
+						textBgColor: 'text-[#001617]',
+						border: 'border-[#dddddd]/20',
+						borderDark: '!border-[#dddddd]',
+						icon: '#dddddd',
+						input: 'focus:border-[#dddddd] focus:ring-[#dddddd]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#dddddd] peer-checked:border-[#dddddd]',
+						toggle: 'bg-[#dddddd]/5 after:bg-[#001617] after:border-[#001617] peer-checked:bg-[#dddddd]',
+						slider: 'bg-[#dddddd]/10 [&::-webkit-slider-thumb]:!bg-[#dddddd]',
+						hover: 'hover:bg-[#dddddd]/5',
+						hoverBorder: 'border border-transparent hover:border-[#dddddd]',
+						via: 'via-[#dddddd]',
+						placeholder: 'placeholder:text-[#dddddd]/50'
+					},
+					8: {
+						themeName: 'Oled Black',
+						bgMain: 'bg-[#000000]',
+						bgSecondary: 'bg-[#dddddd]',
+						bgSecondaryLight: 'bg-[#dddddd]/5',
+						bgSecondaryDark: 'bg-[#dddddd]/15',
+						text: 'text-[#dddddd]',
+						textSecondary: 'text-[#dddddd]',
+						textBgColor: 'text-[#000000]',
+						border: 'border-[#dddddd]/20',
+						borderDark: '!border-[#dddddd]',
+						icon: '#dddddd',
+						input: 'focus:border-[#dddddd] focus:ring-[#dddddd]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#dddddd] peer-checked:border-[#dddddd]',
+						toggle: 'bg-[#dddddd]/5 after:bg-[#000000] after:border-[#000000] peer-checked:bg-[#dddddd]',
+						slider: 'bg-[#dddddd]/10 [&::-webkit-slider-thumb]:!bg-[#dddddd]',
+						hover: 'hover:bg-[#dddddd]/5',
+						hoverBorder: 'border border-transparent hover:border-[#dddddd]',
+						via: 'via-[#dddddd]',
+						placeholder: 'placeholder:text-[#dddddd]/50'
+					},
+					9: {
+						themeName: 'Dark Luxury',
+						bgMain: 'bg-[#09090b]',
+						bgSecondary: 'bg-[#dca54c]',
+						bgSecondaryLight: 'bg-[#dca54c]/5',
+						bgSecondaryDark: 'bg-[#dca54c]/15',
+						text: 'text-[#dca54c]',
+						textSecondary: 'text-[#dca54c]',
+						textBgColor: 'text-[#09090b]',
+						border: 'border-[#dca54c]/20',
+						borderDark: '!border-[#dca54c]',
+						icon: '#dca54c',
+						input: 'focus:border-[#dca54c] focus:ring-[#dca54c]',
+						checked: 'peer-checked:border-2 peer-checked:border-[#dca54c] peer-checked:border-[#dca54c]',
+						toggle: 'bg-[#dca54c]/5 after:bg-[#09090b] after:border-[#09090b] peer-checked:bg-[#dca54c]',
+						slider: 'bg-[#dca54c]/10 [&::-webkit-slider-thumb]:!bg-[#dca54c]',
+						hover: 'hover:bg-[#dca54c]/5',
+						hoverBorder: 'border border-transparent hover:border-[#dca54c]',
+						via: 'via-[#dca54c]',
+						placeholder: 'placeholder:text-[#dca54c]/50'
+					}
+				};
+
+				return themes[id][type] || '';
+			} catch (error) {
+				console.error('An error occurred while fetching the theme:', error);
+				return '';
+			}
+		}
+
+		window.theme = theme;
+	</script>
+
+	<!-- set the website theme - we put this code here to avoid the white flash and making people go blind -->
+	<script>
+		// Declare the theme variable
+		let currentTheme;
+
+		try {
+			// Try to retrieve the user settings from localStorage and parse the JSON string
+			const userSettings = JSON.parse(localStorage.getItem('userSettings'));
+
+			// Check if displaySettings and websiteTheme exist in the parsed object
+			if (userSettings && userSettings.displaySettings && userSettings.displaySettings.websiteTheme !== undefined) {
+				currentTheme = userSettings.displaySettings.websiteTheme;
+			} else {
+				// Default theme in case the properties don't exist
+				currentTheme = 1;
+			}
+		} catch (error) {
+			// If there's an error during JSON parsing or any other issue, fallback to default theme
+			currentTheme = 1;
+		}
+
+		// Apply the theme class to the document's root element
+		document.documentElement.classList += `theme-${currentTheme} ${window.theme('bgMain')}`;
+	</script>
+
+	<!-- Umami -->
+	<meta name="description"
+		content="Guess The Word - Word By Word Translation, Transliteration And Morphology in English, Urdu, Hindi, Indonesian, Bangla, Turkish, Tamil, French, German, Chinese, Malayalam and Divehi - QuranWBW.com">
+	<meta name="og:site_name" content="Quran Word By Word Translation, Transliteration And Morphology - QuranWBW.com">
+	<meta name="og:title"
+		content="Guess The Word - Word By Word Translation, Transliteration And Morphology in English, Urdu, Hindi, Indonesian, Bangla, Turkish, Tamil, French, German, Chinese, Malayalam and Divehi - QuranWBW.com">
+	<meta name="og:image" content="">
+</head>
+
+<body data-sveltekit-preload-data="hover" class="text-[#000000]">
+	<script>
+		document.body.classList.add(`${window.theme('text')}`);
+	</script>
+
+	<div id="app" style="display: contents">
+		<div class="max-w-screen-lg mx-auto pt-16 pb-8 px-4">
+			<nav id="navbar"
+				class="bg-[#FFFFFF] border-b border-[#b1901f]/20 fixed w-full z-20 top-0 left-0 print:hidden block">
+				<div id="top-nav"
+					class="block false flex flex-row items-center justify-center max-w-screen-lg mx-auto px-4 py-2"
+					aria-label="Home">
+					<button
+						class="flex items-center p-3 text-sm w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
+						Guess The Word
+					</button>
+				</div>
+			</nav>
+
+			<div class="pb-4 block">
+			</div>
+
+			<div class="space-y-12 my-6 md:my-8">
+				<div id="word">
+					<div class="flex flex-col space-y-8 justify-center">
+
+						<button class="flex flex-col space-y-4 mx-auto items-center">
+							<span class="text-5xl md:text-7xl arabic-font-1">{{question.title}}</span>
+							<span class="text-xs">{{question.subtitle}}</span>
+						</button>
+
+						<div id="options" class="pt-8">
+							<p class="mb-5 text-sm">Guess the correct option:</p>
+							<div class="grid gap-4 md:gap-6 w-full md:grid-cols-2">
+								<label v-for="answer in question.answers"
+									class="text-sm rtl:text-right font-medium flex items-center">
+									<input type="radio" value="0" name="bordered"
+										class="w-4 h-4 me-2 sr-only peer focus:border-[#b1901f] focus:ring-[#b1901f]">
+									<div @click="choseAnswer(answer)"
+										class="inline-flex justify-between items-center p-5 w-full rounded-lg cursor-pointer border-2 border-[#b1901f]/20 bg-[#FFFFFF] peer-checked:border-2 peer-checked:border-[#b1901f] peer-checked:border-[#b1901f] hover:bg-[#b1901f]/5 border-[#b1901f]/20">
+										<div class="flex flex-row mr-auto ml-2">{{answer.title}}</div>
+									</div>
+								</label>
+							</div>
+						</div>
+
+						<div id="answer-results" class="flex justify-center text-center font-medium text-md"
+							v-if="answerPassed">
+							<span v-if="currentAnswerCorrect">Your answer was correct 😀</span>
+							<span v-else>Sorry, it's wrong 😟</span>
+						</div>
+
+						<div id="buttons" class="flex flex-row space-x-4 justify-center w-full">
+							<div id="confirm-button" class="null w-full" v-if="!answerPassed">
+								<button :disabled="!chosenAnswer" @click="confirm()"
+									class="inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer border border-transparent hover:border-[#b1901f] bg-[#b1901f]/5 w-full"
+									:class="{'opacity-30': !chosenAnswer}">
+									Confirm
+								</button>
+							</div>
+							<div id="skip-word-button" class="w-full">
+								<button v-if="!answerPassed" @click="skip"
+									class="bg-transparent border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
+									Skip →
+								</button>
+
+								<button v-if="answerPassed" @click="next()"
+									class="bg-transparent border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
+									Next →
+								</button>
+							</div>
+						</div>
+						<div id="quiz-stats" class="flex flex-row space-x-4 justify-center text-xs">
+							<span>Correct: {{correctCount}}</span>
+							<span>|</span>
+							<span>Wrong: {{wrongCount}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+	// Utils 
+	function uuidv4() {
+		return "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c =>
+			(+c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> +c / 4).toString(16)
+		);
+	}
+
+	(function init() {
+		if (!localStorage.getItem('client_id')) {
+			localStorage.setItem('client_id', uuidv4())
+		}
+	})()
+	// end of utils
+</script>
+
+<script>
+	const { createApp, ref } = Vue
+
+	const baseUrl = 'https://jasctoxmxtpsobudojpp.supabase.co/functions/v1'
+	const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imphc2N0b3hteHRwc29idWRvanBwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzg0OTA2NzAsImV4cCI6MjA1NDA2NjY3MH0.WcNrEo5AW3302pkmBwdA4blK5ecckh_mle1Ksm3LLCs'
+
+	const restHeaders = new Headers();
+	restHeaders.append('Content-Type', 'application/json');
+	restHeaders.append('Authorization', `Bearer ${token}`);
+	restHeaders.append('X-Client-Id', localStorage.getItem('client_id'))
+
+	const question = ref({})
+	const excludeQuestions = ref([])
+	const chosenAnswer = ref(null)
+	const correctCount = ref(0)
+	const wrongCount = ref(0)
+	const currentAnswerCorrect = ref(false)
+	const answerPassed = ref(false)
+	const total = 10
+
+	// Your answer was correct 😀
+	// Sorry, the correct answer was "We will let you overpower them" 😟
+
+	// Functions
+	function next() {
+		const requestOptions = {
+			method: "GET",
+			headers: restHeaders,
+			redirect: "follow"
+		};
+		console.log(requestOptions)
+
+		fetch(`${baseUrl}/testing/next-question`, requestOptions)
+			.then((response) => response.json())
+			.then((result) => {
+				console.log(result)
+				question.value = result
+				chosenAnswer.value = null
+				excludeQuestions.value = [...excludeQuestions.value, result.id]
+				answerPassed.value = false
+			})
+			.catch((error) => console.error(error));
+	}
+
+	function choseAnswer(answer) {
+		console.log('choseAnswer', answer)
+		chosenAnswer.value = answer
+	}
+
+	function confirm() {
+		console.log('confirm')
+		if (!chosenAnswer.value) {
+			alert('Please chose an answer')
+			return
+		}
+
+		const requestOptions = {
+			method: "POST",
+			headers: restHeaders,
+			body: JSON.stringify({
+				"questionId": question.value.id,
+				"answerId": chosenAnswer.value.id
+			}),
+			redirect: "follow"
+		};
+		console.log(requestOptions)
+
+		fetch(`${baseUrl}/testing/check-answer`, requestOptions)
+			.then((response) => response.json())
+			.then((result) => {
+				console.log(result)
+				answerPassed.value = true
+
+				if (result.result) {
+					correctCount.value += 1
+					currentAnswerCorrect.value = true
+				} else {
+					wrongCount.value += 1
+					currentAnswerCorrect.value = false
+				}
+			})
+			.catch((error) => console.error(error));
+	}
+
+	function skip() {
+		wrongCount.value += 1
+		next()
+	}
+
+	function reset() {
+		const question = ref({})
+		const excludeQuestions = ref([])
+		const chosenAnswer = ref(null)
+		const correctCount = ref(0)
+		const wrongCount = ref(0)
+	}
+	// end of functions
+
+	next();
+
+	createApp({
+		setup() {
+			return {
+				question,
+				excludeQuestions,
+				chosenAnswer,
+				correctCount,
+				wrongCount,
+				currentAnswerCorrect,
+				answerPassed,
+
+				choseAnswer,
+				confirm,
+				next,
+				skip,
+			}
+		}
+	}).mount('#app')
+</script>
+
+</html>
