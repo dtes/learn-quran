@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Guess The Word</title>
+	<title>Learn Quran</title>
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="og:type" content="website">
@@ -265,10 +265,10 @@
 
 	<!-- Umami -->
 	<meta name="description"
-		content="Guess The Word - Word By Word Translation, Transliteration And Morphology in English, Urdu, Hindi, Indonesian, Bangla, Turkish, Tamil, French, German, Chinese, Malayalam and Divehi - QuranWBW.com">
-	<meta name="og:site_name" content="Quran Word By Word Translation, Transliteration And Morphology - QuranWBW.com">
+		content="Learn Quran">
+	<meta name="og:site_name" content="Learn Quran">
 	<meta name="og:title"
-		content="Guess The Word - Word By Word Translation, Transliteration And Morphology in English, Urdu, Hindi, Indonesian, Bangla, Turkish, Tamil, French, German, Chinese, Malayalam and Divehi - QuranWBW.com">
+		content="Learn Quran">
 	<meta name="og:image" content="">
 </head>
 
@@ -286,7 +286,7 @@
 					aria-label="Home">
 					<button
 						class="flex items-center p-3 text-sm w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
-						Guess The Word
+						Learn Quran
 					</button>
 				</div>
 			</nav>
@@ -304,7 +304,7 @@
 						</button>
 
 						<div id="options" class="pt-8">
-							<p class="mb-5 text-sm">Guess the correct option:</p>
+							<p class="mb-5 text-sm">Дұрыс жауабын таңдаңыз:</p>
 							<div class="grid gap-4 md:gap-6 w-full md:grid-cols-2">
 								<label v-for="answer in question.answers"
 									class="text-sm rtl:text-right font-medium flex items-center">
@@ -320,8 +320,8 @@
 
 						<div id="answer-results" class="flex justify-center text-center font-medium text-md"
 							v-if="answerPassed">
-							<span v-if="currentAnswerCorrect">Your answer was correct 😀</span>
-							<span v-else>Sorry, it's wrong 😟</span>
+							<span v-if="currentAnswerCorrect">Сіздің жауабыңыз дұрыс 😀</span>
+							<span v-else>Кешіріңіз, бұл қате 😟</span>
 						</div>
 
 						<div id="buttons" class="flex flex-row space-x-4 justify-center w-full">
@@ -329,25 +329,25 @@
 								<button :disabled="!chosenAnswer" @click="confirm()"
 									class="inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer border border-transparent hover:border-[#b1901f] bg-[#b1901f]/5 w-full"
 									:class="{'opacity-30': !chosenAnswer}">
-									Confirm
+									Растау
 								</button>
 							</div>
 							<div id="skip-word-button" class="w-full">
 								<button v-if="!answerPassed" @click="skip"
 									class="bg-transparent border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
-									Skip →
+									Өткізу →
 								</button>
 
 								<button v-if="answerPassed" @click="next()"
 									class="bg-transparent border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
-									Next →
+									Келесі →
 								</button>
 							</div>
 						</div>
 						<div id="quiz-stats" class="flex flex-row space-x-4 justify-center text-xs">
-							<span>Correct: {{correctCount}}</span>
+							<span>Дұрыс: {{correctCount}}</span>
 							<span>|</span>
-							<span>Wrong: {{wrongCount}}</span>
+							<span>Қате: {{wrongCount}}</span>
 						</div>
 					</div>
 				</div>
