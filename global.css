@@ -35,6 +35,8 @@
 7. Disable tap highlights on iOS
 */
 
+@font-face {font-family: "hafs18";src: url("https://cdn.jsdelivr.net/gh/thetruetruth/quran-data-kfgqpc@main/hafs/font/hafs.18.woff2") format("woff2"),url("https://cdn.jsdelivr.net/gh/thetruetruth/quran-data-kfgqpc@main/hafs/font/hafs.18.ttf") format("truetype");}
+
 html,
 :host {
   line-height: 1.5;
@@ -3362,7 +3364,7 @@ svg {
 }
 
 .arabic-font-1, .arabic-font-2, .arabic-font-3 {
-  font-family: "Uthmani-Hafs";
+  font-family: "hafs18";
 }
 
 .arabic-font-4 {
