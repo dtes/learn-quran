@@ -285,7 +285,7 @@
 					class="block false flex flex-row items-center justify-center max-w-screen-lg mx-auto px-4 py-2"
 					aria-label="Home">
 					<button
-						class="flex items-center p-3 text-md w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
+						class="flex items-center p-3 text-lg w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
 						Құран сөздерін қайталау
 					</button>
 				</div>
@@ -296,7 +296,7 @@
 
 			<div class="space-y-12 my-6 md:my-8">
 				<div id="word">
-					<div v-if="question.id > 0" class="flex flex-col space-y-8 justify-center">
+					<div v-if="!loading" class="flex flex-col space-y-8 justify-center">
 
 						<button class="flex flex-col space-y-4 mx-auto items-center">
 							<span class="text-5xl md:text-7xl arabic-font-1">{{question.title}}</span>
@@ -328,15 +328,15 @@
 						<div id="buttons" class="flex flex-row space-x-4 justify-center w-full">
 							<div id="confirm-button" class="null w-full" v-if="!answerPassed">
 								<button :disabled="!chosenAnswer" @click="confirm()"
-									class="inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer border border-transparent hover:border-[#b1901f] bg-[#b1901f]/5 w-full"
+									class="inline-flex green-btn items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer border border-transparent hover:border-[#b1901f] bg-[#b1901f]/5 w-full"
 									:class="{'opacity-30': !chosenAnswer}">
-									Растау
+									Тексеру
 								</button>
 							</div>
 							<div id="skip-word-button" class="w-full flex justify-center">
 								<button v-if="!answerPassed" @click="skip"
-									class="bg-transparent border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
-									Өткізу →
+									class="bg-transparent red-btn border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
+									Білмедім, келесі →
 								</button>
 
 								<button v-if="answerPassed" @click="next()"
@@ -392,6 +392,7 @@
 	const wrongCount = ref(0)
 	const currentAnswerCorrect = ref(false)
 	const answerPassed = ref(false)
+	const loading = ref(true)
 	const total = 10
 
 	// Your answer was correct 😀
@@ -405,7 +406,7 @@
 			redirect: "follow"
 		};
 		console.log(requestOptions)
-
+		loading.value = true;
 		fetch(`${baseUrl}/testing/next-question`, requestOptions)
 			.then((response) => response.json())
 			.then((result) => {
@@ -414,6 +415,7 @@
 				chosenAnswer.value = null
 				excludeQuestions.value = [...excludeQuestions.value, result.id]
 				answerPassed.value = false
+				loading.value = false
 			})
 			.catch((error) => console.error(error));
 	}
@@ -429,7 +431,7 @@
 			alert('Please chose an answer')
 			return
 		}
-
+		loading.value = true
 		const requestOptions = {
 			method: "POST",
 			headers: restHeaders,
@@ -446,7 +448,6 @@
 			.then((result) => {
 				console.log(result)
 				answerPassed.value = true
-
 				if (result.result) {
 					correctCount.value += 1
 					currentAnswerCorrect.value = true
@@ -454,6 +455,7 @@
 					wrongCount.value += 1
 					currentAnswerCorrect.value = false
 				}
+				loading.value = false
 			})
 			.catch((error) => console.error(error));
 	}
@@ -484,7 +486,7 @@
 				wrongCount,
 				currentAnswerCorrect,
 				answerPassed,
-
+				loading,
 				choseAnswer,
 				confirm,
 				next,

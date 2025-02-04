@@ -70,6 +70,15 @@ body {
   /* 2 */
 }
 
+.green-btn {
+  background: #65F07A !important;
+  border: 1px solid #65F07A !important;
+}
+
+.red-btn {
+  border: 1px solid red !important;
+}
+
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
