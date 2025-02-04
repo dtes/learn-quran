@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Learn Quran</title>
+	<title>Құран сөздерін қайталау</title>
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="og:type" content="website">
@@ -265,10 +265,10 @@
 
 	<!-- Umami -->
 	<meta name="description"
-		content="Learn Quran">
-	<meta name="og:site_name" content="Learn Quran">
+		content="Құран сөздерін қайталау">
+	<meta name="og:site_name" content="Құран сөздерін қайталау">
 	<meta name="og:title"
-		content="Learn Quran">
+		content="Құран сөздерін қайталау">
 	<meta name="og:image" content="">
 </head>
 
@@ -285,8 +285,8 @@
 					class="block false flex flex-row items-center justify-center max-w-screen-lg mx-auto px-4 py-2"
 					aria-label="Home">
 					<button
-						class="flex items-center p-3 text-sm w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
-						Learn Quran
+						class="flex items-center p-3 text-md w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
+						Құран сөздерін қайталау
 					</button>
 				</div>
 			</nav>
@@ -296,11 +296,12 @@
 
 			<div class="space-y-12 my-6 md:my-8">
 				<div id="word">
-					<div class="flex flex-col space-y-8 justify-center">
+					<div v-if="question.id > 0" class="flex flex-col space-y-8 justify-center">
 
 						<button class="flex flex-col space-y-4 mx-auto items-center">
 							<span class="text-5xl md:text-7xl arabic-font-1">{{question.title}}</span>
-							<span class="text-xs">{{question.subtitle}}</span>
+							<span v-if="question.subtitle == '0'" class="text-xs">(Құранда көп қайталанатын сөз)</span>
+							<span v-else class="text-xs">(Бұл сөз Құранда {{question.subtitle}} рет кездеседі)</span>
 						</button>
 
 						<div id="options" class="pt-8">
@@ -332,7 +333,7 @@
 									Растау
 								</button>
 							</div>
-							<div id="skip-word-button" class="w-full">
+							<div id="skip-word-button" class="w-full flex justify-center">
 								<button v-if="!answerPassed" @click="skip"
 									class="bg-transparent border border-[#b1901f]/20 inline-flex items-center justify-center space-x-2 py-2 px-4 focus:border-[#b1901f] focus:ring-[#b1901f] rounded-3xl transition-colors duration-150 cursor-pointer w-full">
 									Өткізу →
@@ -350,6 +351,7 @@
 							<span>Қате: {{wrongCount}}</span>
 						</div>
 					</div>
+					<div v-else class="flex justify-center">Сәл күте тұрыңыз, ақпарат жүктелуде...</div>
 				</div>
 			</div>
 		</div>
