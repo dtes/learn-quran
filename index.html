@@ -320,7 +320,7 @@
 						<div id="answer-results" class="flex justify-center text-center font-medium text-md"
 							v-if="answerPassed">
 							<span v-if="currentAnswerCorrect">Сіздің жауабыңыз дұрыс 😀</span>
-							<span v-else>Кешіріңіз, бұл қате 😟</span>
+							<span v-else>Кешіріңіз, дұрыс жауабы <b>"{{rightAnswer.title}}"</b> болатын 😟</span>
 						</div>
 
 						<div id="buttons" class="flex flex-row space-x-4 justify-center w-full">
@@ -398,6 +398,7 @@
 	let answerArray = []
 	let excludeQuestions = []
 	const question = ref({})
+	const rightAnswer = ref(null)
 	const chosenAnswer = ref(null)
 	const correctCount = ref(0)
 	const wrongCount = ref(0)
@@ -425,6 +426,7 @@
 			next();
 		}
 		// console.log('randomItem: ', randomItem);
+		rightAnswer.value = randomItem.answers.find(item => item.is_true)
 		question.value = randomItem;
 		loading.value = false
 	}
@@ -468,15 +470,13 @@
 	}
 
 	function loadFromJson() {
+		loading.value = true
 		return fetch('./questions.json')
 		.then(response => response.json())
 		.then(data => {
 			// console.log('questions json: ', data);
 			questionArray = data
 			total.value = data.length
-		})
-		.catch(error => {
-			console.error('Error reading the questions JSON file:', error);
 		})
 		.then(() => fetch('./answers.json'))
 		.then(response => response.json())
@@ -485,6 +485,7 @@
 			answerArray = data;
 		})
 		.catch(error => {
+			loading.value = true
 			console.error('Error reading the answers JSON file:', error);
 		});
 
@@ -531,6 +532,7 @@
 				wrongCount,
 				currentAnswerCorrect,
 				answerPassed,
+				rightAnswer,
 				loading,
 				currentProgress,
 				total,

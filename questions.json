@@ -1,1947 +1,1947 @@
 [
-    {
-      "id": 1,
-      "title": "نَصَرَ",
-      "subtitle": 92
-    },
-    {
-      "id": 2,
-      "title": "بَلَغَ",
-      "subtitle": 49
-    },
-    {
-      "id": 3,
-      "title": "تَرَكَ",
-      "subtitle": 43
-    },
-    {
-      "id": 4,
-      "title": "حَشَرَ",
-      "subtitle": 43
-    },
-    {
-      "id": 5,
-      "title": "حَكَمَ",
-      "subtitle": 80
-    },
-    {
-      "id": 6,
-      "title": "خَرَجَ",
-      "subtitle": 61
-    },
-    {
-      "id": 7,
-      "title": "خَلَدَ",
-      "subtitle": 83
-    },
-    {
-      "id": 8,
-      "title": "خَلَقَ",
-      "subtitle": 248
-    },
-    {
-      "id": 9,
-      "title": "دَخَلَ",
-      "subtitle": 78
-    },
-    {
-      "id": 10,
-      "title": "ذَكَرَ",
-      "subtitle": 163
-    },
-    {
-      "id": 11,
-      "title": "رَزَقَ",
-      "subtitle": 122
-    },
-    {
-      "id": 12,
-      "title": "سَجَدَ",
-      "subtitle": 49
-    },
-    {
-      "id": 13,
-      "title": "شَعَرَ",
-      "subtitle": 29
-    },
-    {
-      "id": 14,
-      "title": "شَكَرَ",
-      "subtitle": 63
-    },
-    {
-      "id": 15,
-      "title": "صَدَقَ",
-      "subtitle": 89
-    },
-    {
-      "id": 16,
-      "title": "عَبَدَ",
-      "subtitle": 143
-    },
-    {
-      "id": 17,
-      "title": "فَسَقَ",
-      "subtitle": 54
-    },
-    {
-      "id": 18,
-      "title": "قَتَلَ",
-      "subtitle": 93
-    },
-    {
-      "id": 19,
-      "title": "قَعَدَ",
-      "subtitle": 23
-    },
-    {
-      "id": 20,
-      "title": "كَتَبَ",
-      "subtitle": 56
-    },
-    {
-      "id": 21,
-      "title": "كَفَرَ",
-      "subtitle": 461
-    },
-    {
-      "id": 22,
-      "title": "مَكَرَ",
-      "subtitle": 43
-    },
-    {
-      "id": 23,
-      "title": "نَظَرَ",
-      "subtitle": 95
-    },
-    {
-      "id": 24,
-      "title": "فَتَحَ",
-      "subtitle": 29
-    },
-    {
-      "id": 25,
-      "title": "بَعَثَ",
-      "subtitle": 65
-    },
-    {
-      "id": 26,
-      "title": "جَعَلَ",
-      "subtitle": 346
-    },
-    {
-      "id": 27,
-      "title": "جَمَعَ",
-      "subtitle": 40
-    },
-    {
-      "id": 28,
-      "title": "ذَهَبَ",
-      "subtitle": 35
-    },
-    {
-      "id": 29,
-      "title": "رَفَعَ",
-      "subtitle": 28
-    },
-    {
-      "id": 30,
-      "title": "سَحَرَ",
-      "subtitle": 49
-    },
-    {
-      "id": 31,
-      "title": "صَلَحَ",
-      "subtitle": 131
-    },
-    {
-      "id": 32,
-      "title": "لَعَنَ",
-      "subtitle": 27
-    },
-    {
-      "id": 33,
-      "title": "نَفَعَ",
-      "subtitle": 42
-    },
-    {
-      "id": 34,
-      "title": "فَعَلَ",
-      "subtitle": 105
-    },
-    {
-      "id": 35,
-      "title": "ضَرَبَ",
-      "subtitle": 58
-    },
-    {
-      "id": 36,
-      "title": "حَمَلَ",
-      "subtitle": 50
-    },
-    {
-      "id": 37,
-      "title": "صَبَرَ",
-      "subtitle": 94
-    },
-    {
-      "id": 38,
-      "title": "ظَلَمَ",
-      "subtitle": 266
-    },
-    {
-      "id": 39,
-      "title": "عَرَفَ",
-      "subtitle": 59
-    },
-    {
-      "id": 40,
-      "title": "عَقَلَ",
-      "subtitle": 49
-    },
-    {
-      "id": 41,
-      "title": "غَفَرَ",
-      "subtitle": 95
-    },
-    {
-      "id": 42,
-      "title": "قَدَرَ",
-      "subtitle": 47
-    },
-    {
-      "id": 43,
-      "title": "كَذَبَ",
-      "subtitle": 76
-    },
-    {
-      "id": 44,
-      "title": "كَسَبَ",
-      "subtitle": 62
-    },
-    {
-      "id": 45,
-      "title": "مَلَكَ",
-      "subtitle": 49
-    },
-    {
-      "id": 46,
-      "title": "سَمِعَ",
-      "subtitle": 100
-    },
-    {
-      "id": 47,
-      "title": "حَزِنَ",
-      "subtitle": 30
-    },
-    {
-      "id": 48,
-      "title": "حَسِبَ",
-      "subtitle": 46
-    },
-    {
-      "id": 49,
-      "title": "حَفِظَ",
-      "subtitle": 27
-    },
-    {
-      "id": 50,
-      "title": "خَسِرَ",
-      "subtitle": 51
-    },
-    {
-      "id": 51,
-      "title": "رَحِمَ",
-      "subtitle": 148
-    },
-    {
-      "id": 52,
-      "title": "شَهِدَ",
-      "subtitle": 66
-    },
-    {
-      "id": 53,
-      "title": "عَلِمَ",
-      "subtitle": 518
-    },
-    {
-      "id": 54,
-      "title": "عَمِلَ",
-      "subtitle": 318
-    },
-    {
-      "id": 55,
-      "title": "كَرِهَ",
-      "subtitle": 25
-    },
-    {
-      "id": 56,
-      "title": "حَيِيَ",
-      "subtitle": 83
-    },
-    {
-      "id": 57,
-      "title": "رَدَّ",
-      "subtitle": 45
-    },
-    {
-      "id": 58,
-      "title": "صَدَّ",
-      "subtitle": 39
-    },
-    {
-      "id": 59,
-      "title": "ضَرَّ",
-      "subtitle": 31
-    },
-    {
-      "id": 60,
-      "title": "ضَلَّ",
-      "subtitle": 113
-    },
-    {
-      "id": 61,
-      "title": "ظَنَّ",
-      "subtitle": 68
-    },
-    {
-      "id": 62,
-      "title": "عَدَّ",
-      "subtitle": 17
-    },
-    {
-      "id": 63,
-      "title": "غَرَّ",
-      "subtitle": 24
-    },
-    {
-      "id": 64,
-      "title": "مَدَّ",
-      "subtitle": 17
-    },
-    {
-      "id": 65,
-      "title": "مَسَّ",
-      "subtitle": 58
-    },
-    {
-      "id": 66,
-      "title": "وَدَّ",
-      "subtitle": 18
-    },
-    {
-      "id": 67,
-      "title": "وَذَرَ",
-      "subtitle": 45
-    },
-    {
-      "id": 68,
-      "title": "وَضَعَ",
-      "subtitle": 22
-    },
-    {
-      "id": 69,
-      "title": "وَقَعَ",
-      "subtitle": 20
-    },
-    {
-      "id": 70,
-      "title": "وَهَبَ",
-      "subtitle": 23
-    },
-    {
-      "id": 71,
-      "title": "وَجَدَ",
-      "subtitle": 107
-    },
-    {
-      "id": 72,
-      "title": "وَرِثَ",
-      "subtitle": 19
-    },
-    {
-      "id": 73,
-      "title": "وَزَرَ",
-      "subtitle": 19
-    },
-    {
-      "id": 74,
-      "title": "وَصَفَ",
-      "subtitle": 14
-    },
-    {
-      "id": 75,
-      "title": "وَعَدَ",
-      "subtitle": 124
-    },
-    {
-      "id": 76,
-      "title": "وَقَى",
-      "subtitle": 19
-    },
-    {
-      "id": 77,
-      "title": "وَسِعَ",
-      "subtitle": 25
-    },
-    {
-      "id": 78,
-      "title": "قَالَ",
-      "subtitle": 1719
-    },
-    {
-      "id": 79,
-      "title": "تَاتَ",
-      "subtitle": 72
-    },
-    {
-      "id": 80,
-      "title": "ذَاقَ",
-      "subtitle": 42
-    },
-    {
-      "id": 81,
-      "title": "فَازَ",
-      "subtitle": 26
-    },
-    {
-      "id": 82,
-      "title": "قَامَ",
-      "subtitle": 55
-    },
-    {
-      "id": 83,
-      "title": "كَانَ",
-      "subtitle": 1361
-    },
-    {
-      "id": 84,
-      "title": "مَاتَ",
-      "subtitle": 93
-    },
-    {
-      "id": 85,
-      "title": "خَافَ",
-      "subtitle": 112
-    },
-    {
-      "id": 86,
-      "title": "كَادَ",
-      "subtitle": 24
-    },
-    {
-      "id": 87,
-      "title": "كَادَ",
-      "subtitle": 35
-    },
-    {
-      "id": 88,
-      "title": "زَادَ",
-      "subtitle": 51
-    },
-    {
-      "id": 89,
-      "title": "تَلَى",
-      "subtitle": 61
-    },
-    {
-      "id": 90,
-      "title": "دَعَا",
-      "subtitle": 197
-    },
-    {
-      "id": 91,
-      "title": "عَفَا",
-      "subtitle": 30
-    },
-    {
-      "id": 92,
-      "title": "بَغَى",
-      "subtitle": 29
-    },
-    {
-      "id": 93,
-      "title": "جَرَى",
-      "subtitle": 60
-    },
-    {
-      "id": 94,
-      "title": "جَزَى",
-      "subtitle": 116
-    },
-    {
-      "id": 95,
-      "title": "قَضَى",
-      "subtitle": 62
-    },
-    {
-      "id": 96,
-      "title": "كَفَى",
-      "subtitle": 32
-    },
-    {
-      "id": 97,
-      "title": "هَدَى",
-      "subtitle": 163
-    },
-    {
-      "id": 98,
-      "title": "خَشِيَ",
-      "subtitle": 48
-    },
-    {
-      "id": 99,
-      "title": "رَضِيَ",
-      "subtitle": 57
-    },
-    {
-      "id": 100,
-      "title": "سَأَلَ",
-      "subtitle": 119
-    },
-    {
-      "id": 101,
-      "title": "قَرَأَ",
-      "subtitle": 17
-    },
-    {
-      "id": 102,
-      "title": "أَخَذَ",
-      "subtitle": 142
-    },
-    {
-      "id": 103,
-      "title": "أَكَلَ",
-      "subtitle": 101
-    },
-    {
-      "id": 104,
-      "title": "أَمَرَ",
-      "subtitle": 232
-    },
-    {
-      "id": 105,
-      "title": "أَمِنَ",
-      "subtitle": 25
-    },
-    {
-      "id": 106,
-      "title": "أَبَي",
-      "subtitle": 13
-    },
-    {
-      "id": 107,
-      "title": "رَأَى",
-      "subtitle": 269
-    },
-    {
-      "id": 108,
-      "title": "أَتَى",
-      "subtitle": 263
-    },
-    {
-      "id": 109,
-      "title": "شَاءَ",
-      "subtitle": 277
-    },
-    {
-      "id": 110,
-      "title": "سَاءَ",
-      "subtitle": 39
-    },
-    {
-      "id": 111,
-      "title": "جَاءَ",
-      "subtitle": 236
-    },
-    {
-      "id": 112,
-      "title": "بَدَّلَ",
-      "subtitle": 33
-    },
-    {
-      "id": 113,
-      "title": "بَشَّرَ",
-      "subtitle": 48
-    },
-    {
-      "id": 114,
-      "title": "بَيَّنَ",
-      "subtitle": 35
-    },
-    {
-      "id": 115,
-      "title": "زَيَّنَ",
-      "subtitle": 26
-    },
-    {
-      "id": 116,
-      "title": "سَبَّحَ",
-      "subtitle": 48
-    },
-    {
-      "id": 117,
-      "title": "سَخَّرَ",
-      "subtitle": 26
-    },
-    {
-      "id": 118,
-      "title": "صَدَّقَ",
-      "subtitle": 31
-    },
-    {
-      "id": 119,
-      "title": "عَذَّبَ",
-      "subtitle": 49
-    },
-    {
-      "id": 120,
-      "title": "عَلَّمَ",
-      "subtitle": 42
-    },
-    {
-      "id": 121,
-      "title": "قَدَّمَ",
-      "subtitle": 27
-    },
-    {
-      "id": 122,
-      "title": "كَذَّبَ",
-      "subtitle": 198
-    },
-    {
-      "id": 123,
-      "title": "نَبَّأَ",
-      "subtitle": 46
-    },
-    {
-      "id": 124,
-      "title": "نَزَّلَ",
-      "subtitle": 79
-    },
-    {
-      "id": 125,
-      "title": "نَجَّي",
-      "subtitle": 39
-    },
-    {
-      "id": 126,
-      "title": "وَلَّى",
-      "subtitle": 45
-    },
-    {
-      "id": 127,
-      "title": "جَاهَدَ",
-      "subtitle": 31
-    },
-    {
-      "id": 128,
-      "title": "قَاتَلَ",
-      "subtitle": 54
-    },
-    {
-      "id": 129,
-      "title": "نَادَى",
-      "subtitle": 44
-    },
-    {
-      "id": 130,
-      "title": "نَافَقَ",
-      "subtitle": 34
-    },
-    {
-      "id": 131,
-      "title": "هَاجَرَ",
-      "subtitle": 24
-    },
-    {
-      "id": 132,
-      "title": "أَبْصَرَ",
-      "subtitle": 36
-    },
-    {
-      "id": 133,
-      "title": "أَحْسَنَ",
-      "subtitle": 72
-    },
-    {
-      "id": 134,
-      "title": "أَخْرَجَ",
-      "subtitle": 108
-    },
-    {
-      "id": 135,
-      "title": "أَدْخَلَ",
-      "subtitle": 45
-    },
-    {
-      "id": 136,
-      "title": "أَرْجَعَ",
-      "subtitle": 33
-    },
-    {
-      "id": 137,
-      "title": "أَرْسَلَ",
-      "subtitle": 135
-    },
-    {
-      "id": 138,
-      "title": "أَسْرَفَ",
-      "subtitle": 23
-    },
-    {
-      "id": 139,
-      "title": "أَسْلَمَ",
-      "subtitle": 72
-    },
-    {
-      "id": 140,
-      "title": "أَشْرَكَ",
-      "subtitle": 120
-    },
-    {
-      "id": 141,
-      "title": "أَصْبَحَ",
-      "subtitle": 34
-    },
-    {
-      "id": 142,
-      "title": "أَصْلَحَ",
-      "subtitle": 40
-    },
-    {
-      "id": 143,
-      "title": "أَعْرَضَ",
-      "subtitle": 53
-    },
-    {
-      "id": 144,
-      "title": "أَغْرَقَ",
-      "subtitle": 21
-    },
-    {
-      "id": 145,
-      "title": "أَفْسَدَ",
-      "subtitle": 36
-    },
-    {
-      "id": 146,
-      "title": "أَفْلَحَ",
-      "subtitle": 40
-    },
-    {
-      "id": 147,
-      "title": "أَنْبَتَ",
-      "subtitle": 16
-    },
-    {
-      "id": 148,
-      "title": "أَنْذَرَ",
-      "subtitle": 70
-    },
-    {
-      "id": 149,
-      "title": "أَنْزَلَ",
-      "subtitle": 190
-    },
-    {
-      "id": 150,
-      "title": "أَنْشَأَ",
-      "subtitle": 22
-    },
-    {
-      "id": 151,
-      "title": "أَنْعَمَ",
-      "subtitle": 17
-    },
-    {
-      "id": 152,
-      "title": "أَنْفَقَ",
-      "subtitle": 69
-    },
-    {
-      "id": 153,
-      "title": "أَنْكَرَ",
-      "subtitle": 25
-    },
-    {
-      "id": 154,
-      "title": "أَهْلَكَ",
-      "subtitle": 58
-    },
-    {
-      "id": 155,
-      "title": "أَتَمَّ",
-      "subtitle": 17
-    },
-    {
-      "id": 156,
-      "title": "أَحَبَّ",
-      "subtitle": 64
-    },
-    {
-      "id": 157,
-      "title": "أَحَلَّ",
-      "subtitle": 21
-    },
-    {
-      "id": 158,
-      "title": "أَسَرَّ",
-      "subtitle": 18
-    },
-    {
-      "id": 159,
-      "title": "أَضَلَّ",
-      "subtitle": 68
-    },
-    {
-      "id": 160,
-      "title": "أَعَدَّ",
-      "subtitle": 20
-    },
-    {
-      "id": 161,
-      "title": "أَذَاقَ",
-      "subtitle": 22
-    },
-    {
-      "id": 162,
-      "title": "أَرَادَ",
-      "subtitle": 139
-    },
-    {
-      "id": 163,
-      "title": "أَصَابَ",
-      "subtitle": 65
-    },
-    {
-      "id": 164,
-      "title": "أَطَاعَ",
-      "subtitle": 74
-    },
-    {
-      "id": 165,
-      "title": "أَقَامَ",
-      "subtitle": 67
-    },
-    {
-      "id": 166,
-      "title": "أَمَاتَ",
-      "subtitle": 21
-    },
-    {
-      "id": 167,
-      "title": "أَحْيَا",
-      "subtitle": 53
-    },
-    {
-      "id": 168,
-      "title": "أَخْفَى",
-      "subtitle": 18
-    },
-    {
-      "id": 169,
-      "title": "أَرَى",
-      "subtitle": 44
-    },
-    {
-      "id": 170,
-      "title": "أَغْنَى",
-      "subtitle": 41
-    },
-    {
-      "id": 171,
-      "title": "أَلْقَى",
-      "subtitle": 71
-    },
-    {
-      "id": 172,
-      "title": "أَنْجَى",
-      "subtitle": 23
-    },
-    {
-      "id": 173,
-      "title": "أَوْحَى",
-      "subtitle": 72
-    },
-    {
-      "id": 174,
-      "title": "أَوْفَى",
-      "subtitle": 18
-    },
-    {
-      "id": 175,
-      "title": "آمَنَ",
-      "subtitle": 782
-    },
-    {
-      "id": 176,
-      "title": "آتَي",
-      "subtitle": 274
-    },
-    {
-      "id": 177,
-      "title": "آذَى",
-      "subtitle": 16
-    },
-    {
-      "id": 178,
-      "title": "تَفَكَّرَ",
-      "subtitle": 17
-    },
-    {
-      "id": 179,
-      "title": "تَذَكَّرَ",
-      "subtitle": 51
-    },
-    {
-      "id": 180,
-      "title": "تَوَكَّلَ",
-      "subtitle": 44
-    },
-    {
-      "id": 181,
-      "title": "تَبَيَّنَ",
-      "subtitle": 18
-    },
-    {
-      "id": 182,
-      "title": "تَرَبَّصَ",
-      "subtitle": 17
-    },
-    {
-      "id": 183,
-      "title": "تَوَلَّى",
-      "subtitle": 79
-    },
-    {
-      "id": 184,
-      "title": "تَوَفَّى",
-      "subtitle": 25
-    },
-    {
-      "id": 185,
-      "title": "تَبَارَكَ",
-      "subtitle": 9
-    },
-    {
-      "id": 186,
-      "title": "تَسَاءَلَ",
-      "subtitle": 9
-    },
-    {
-      "id": 187,
-      "title": "اِخْتَلَفَ",
-      "subtitle": 52
-    },
-    {
-      "id": 188,
-      "title": "اِتَّبَعَ",
-      "subtitle": 140
-    },
-    {
-      "id": 189,
-      "title": "اِتَّخَذَ",
-      "subtitle": 128
-    },
-    {
-      "id": 190,
-      "title": "اِتَّقَى",
-      "subtitle": 215
-    },
-    {
-      "id": 191,
-      "title": "اِفْتَرَى",
-      "subtitle": 59
-    },
-    {
-      "id": 192,
-      "title": "اِهْتَدَى",
-      "subtitle": 61
-    },
-    {
-      "id": 193,
-      "title": "اِبْتَغَى",
-      "subtitle": 48
-    },
-    {
-      "id": 194,
-      "title": "اِنْقَلَبَ",
-      "subtitle": 20
-    },
-    {
-      "id": 195,
-      "title": "اِنْتَهَى",
-      "subtitle": 16
-    },
-    {
-      "id": 196,
-      "title": "اِسْوَدَّ",
-      "subtitle": 3
-    },
-    {
-      "id": 197,
-      "title": "إِبْيَضَّ",
-      "subtitle": 3
-    },
-    {
-      "id": 198,
-      "title": "إِسْتَعْجَلَ",
-      "subtitle": 20
-    },
-    {
-      "id": 199,
-      "title": "اِسْتَغْفَرَ",
-      "subtitle": 42
-    },
-    {
-      "id": 200,
-      "title": "اِسْتَكْبَرَ",
-      "subtitle": 48
-    },
-    {
-      "id": 201,
-      "title": "اِسْتَهْزَأَ",
-      "subtitle": 23
-    },
-    {
-      "id": 202,
-      "title": "اِسْتَجَابَ",
-      "subtitle": 28
-    },
-    {
-      "id": 203,
-      "title": "اِسْتَطَاعَ",
-      "subtitle": 42
-    },
-    {
-      "id": 204,
-      "title": "اِسْتَقَامَ",
-      "subtitle": 47
-    },
-    {
-      "id": 205,
-      "title": "ضَرَبَ  فِي",
-      "subtitle": 0
-    },
-    {
-      "id": 206,
-      "title": "ضَرَبَ  لِ",
-      "subtitle": 0
-    },
-    {
-      "id": 207,
-      "title": "ضَرَبَ  مَثَلاً",
-      "subtitle": 0
-    },
-    {
-      "id": 208,
-      "title": "عَفَا عَنْ",
-      "subtitle": 0
-    },
-    {
-      "id": 209,
-      "title": "قَضَى بَيْنَ",
-      "subtitle": 0
-    },
-    {
-      "id": 210,
-      "title": "قَضَى عَلَى",
-      "subtitle": 0
-    },
-    {
-      "id": 211,
-      "title": "وَضَعَ عَنْ",
-      "subtitle": 0
-    },
-    {
-      "id": 212,
-      "title": "وَلَّى إِلَى",
-      "subtitle": 0
-    },
-    {
-      "id": 213,
-      "title": "وَلَّى عَنْ",
-      "subtitle": 0
-    },
-    {
-      "id": 214,
-      "title": "أَتَى  بِ",
-      "subtitle": 0
-    },
-    {
-      "id": 215,
-      "title": "بَغَى  عَلَى",
-      "subtitle": 0
-    },
-    {
-      "id": 216,
-      "title": "تَابَ  إِلَى",
-      "subtitle": 0
-    },
-    {
-      "id": 217,
-      "title": "تَابَ  عَلَى",
-      "subtitle": 0
-    },
-    {
-      "id": 218,
-      "title": "جَاءَ  بِ",
-      "subtitle": 0
-    },
-    {
-      "id": 219,
-      "title": "ذَهَبَ  بِ",
-      "subtitle": 0
-    },
-    {
-      "id": 220,
-      "title": "رَضِيَ  عَنْ",
-      "subtitle": 0
-    },
-    {
-      "id": 221,
-      "title": "نَذِيْرٌ",
-      "subtitle": 44
-    },
-    {
-      "id": 222,
-      "title": "نَصِيْرٌ",
-      "subtitle": 24
-    },
-    {
-      "id": 223,
-      "title": "حَلِيْمٌ",
-      "subtitle": 15
-    },
-    {
-      "id": 224,
-      "title": "بَعِيْدٌ",
-      "subtitle": 25
-    },
-    {
-      "id": 225,
-      "title": "أَمِيْنٌ",
-      "subtitle": 14
-    },
-    {
-      "id": 226,
-      "title": "آخَرٌ   أُخْرَى",
-      "subtitle": 65
-    },
-    {
-      "id": 227,
-      "title": "آخِرٌ   آخِرَةٌ",
-      "subtitle": 40
-    },
-    {
-      "id": 228,
-      "title": "أَوَّلٌ   (أُوْلَى)",
-      "subtitle": 82
-    },
-    {
-      "id": 229,
-      "title": "حَمِيْمٌ",
-      "subtitle": 20
-    },
-    {
-      "id": 230,
-      "title": "شَدِيْدٌ",
-      "subtitle": 52
-    },
-    {
-      "id": 231,
-      "title": "عَلِيٌّ",
-      "subtitle": 11
-    },
-    {
-      "id": 232,
-      "title": "قَرِيْبٌ",
-      "subtitle": 26
-    },
-    {
-      "id": 233,
-      "title": "كَبِيْرٌ",
-      "subtitle": 44
-    },
-    {
-      "id": 234,
-      "title": "كَثِيْرٌ",
-      "subtitle": 74
-    },
-    {
-      "id": 235,
-      "title": "أَشَدُّ",
-      "subtitle": 31
-    },
-    {
-      "id": 236,
-      "title": "أَعْلَى",
-      "subtitle": 11
-    },
-    {
-      "id": 237,
-      "title": "أَعْلَمُ",
-      "subtitle": 49
-    },
-    {
-      "id": 238,
-      "title": "أَقْرَبُ",
-      "subtitle": 19
-    },
-    {
-      "id": 239,
-      "title": "أَكْبَرُ",
-      "subtitle": 23
-    },
-    {
-      "id": 240,
-      "title": "أَكْثَرُ",
-      "subtitle": 80
-    },
-    {
-      "id": 241,
-      "title": "أَحْسَنُ",
-      "subtitle": 36
-    },
-    {
-      "id": 242,
-      "title": "أَحْقُّ",
-      "subtitle": 10
-    },
-    {
-      "id": 243,
-      "title": "أَدْنَى",
-      "subtitle": 12
-    },
-    {
-      "id": 244,
-      "title": "أَظْلَمُ",
-      "subtitle": 16
-    },
-    {
-      "id": 245,
-      "title": "أَهْدَى",
-      "subtitle": 7
-    },
-    {
-      "id": 246,
-      "title": "سَرِيْعٌ",
-      "subtitle": 10
-    },
-    {
-      "id": 247,
-      "title": "قَلِيْلٌ",
-      "subtitle": 71
-    },
-    {
-      "id": 248,
-      "title": "رَسُوْلٌ   (رُسُلٌ)",
-      "subtitle": 332
-    },
-    {
-      "id": 249,
-      "title": "نَبِّيٌ",
-      "subtitle": 75
-    },
-    {
-      "id": 250,
-      "title": "نَبِيُّوْنَ   أَنْبِيَاءُ",
-      "subtitle": 75
-    },
-    {
-      "id": 251,
-      "title": "آيَةٌ",
-      "subtitle": 382
-    },
-    {
-      "id": 252,
-      "title": "بَيِّنَةٌ",
-      "subtitle": 71
-    },
-    {
-      "id": 253,
-      "title": "شَيْطَانٌ   (شَيَاطِيْنُ)",
-      "subtitle": 88
-    },
-    {
-      "id": 254,
-      "title": "جَبَلٌ   (جِبَالٌ)",
-      "subtitle": 39
-    },
-    {
-      "id": 255,
-      "title": "بَحْرٌ",
-      "subtitle": 38
-    },
-    {
-      "id": 256,
-      "title": "شَمْسٌ",
-      "subtitle": 33
-    },
-    {
-      "id": 257,
-      "title": "قَمَرٌ",
-      "subtitle": 33
-    },
-    {
-      "id": 258,
-      "title": "لَيْلٌ",
-      "subtitle": 80
-    },
-    {
-      "id": 259,
-      "title": "نَهَارٌ",
-      "subtitle": 57
-    },
-    {
-      "id": 260,
-      "title": "أَرْضٌ",
-      "subtitle": 461
-    },
-    {
-      "id": 261,
-      "title": "سَمَاءٌ   (سَمَاوَاتٌ)",
-      "subtitle": 310
-    },
-    {
-      "id": 262,
-      "title": "عِقَابٌ",
-      "subtitle": 20
-    },
-    {
-      "id": 263,
-      "title": "عَاقِبَةٌ",
-      "subtitle": 32
-    },
-    {
-      "id": 264,
-      "title": "عَذَابٌ",
-      "subtitle": 332
-    },
-    {
-      "id": 265,
-      "title": "قِيَامَةٌ",
-      "subtitle": 70
-    },
-    {
-      "id": 266,
-      "title": "لِقَاءٌ",
-      "subtitle": 24
-    },
-    {
-      "id": 267,
-      "title": "صَاحِبٌ   (أَصْحَابٌ)",
-      "subtitle": 94
-    },
-    {
-      "id": 268,
-      "title": "نَارٌ",
-      "subtitle": 145
-    },
-    {
-      "id": 269,
-      "title": "نَهَرٌ   (أَنْهَارٌ)",
-      "subtitle": 54
-    },
-    {
-      "id": 270,
-      "title": "وَيْلٌ",
-      "subtitle": 40
-    },
-    {
-      "id": 271,
-      "title": "يَوْمٌ   (أَيَّامٌ)",
-      "subtitle": 393
-    },
-    {
-      "id": 272,
-      "title": "يَوْمَئِذٍ",
-      "subtitle": 70
-    },
-    {
-      "id": 273,
-      "title": "أَبَداً",
-      "subtitle": 28
-    },
-    {
-      "id": 274,
-      "title": "أَجْرٌ   (أُجُوْرٌ)",
-      "subtitle": 105
-    },
-    {
-      "id": 275,
-      "title": "أَجَلٌ",
-      "subtitle": 52
-    },
-    {
-      "id": 276,
-      "title": "جَنَّةٌ   (جَنَّاتٌ)",
-      "subtitle": 147
-    },
-    {
-      "id": 277,
-      "title": "ثَوَابٌ",
-      "subtitle": 13
-    },
-    {
-      "id": 278,
-      "title": "حِسَابٌ",
-      "subtitle": 39
-    },
-    {
-      "id": 279,
-      "title": "أَمْرٌ   (أُموْرٌ)",
-      "subtitle": 13
-    },
-    {
-      "id": 280,
-      "title": "تَقْوَى",
-      "subtitle": 17
-    },
-    {
-      "id": 281,
-      "title": "حَقٌّ",
-      "subtitle": 247
-    },
-    {
-      "id": 282,
-      "title": "بَاطِلٌ",
-      "subtitle": 26
-    },
-    {
-      "id": 283,
-      "title": "حِكْمَةٌ",
-      "subtitle": 20
-    },
-    {
-      "id": 284,
-      "title": "حَمْدٌ",
-      "subtitle": 43
-    },
-    {
-      "id": 285,
-      "title": "دِيْنٌ",
-      "subtitle": 92
-    },
-    {
-      "id": 286,
-      "title": "زَكَاةٌ",
-      "subtitle": 32
-    },
-    {
-      "id": 287,
-      "title": "شَهِيْدٌ   (شُهَدَاءُ)",
-      "subtitle": 56
-    },
-    {
-      "id": 288,
-      "title": "صَلَاةٌ",
-      "subtitle": 83
-    },
-    {
-      "id": 289,
-      "title": "مُبِيْنٌ",
-      "subtitle": 119
-    },
-    {
-      "id": 290,
-      "title": "نُوْرٌ",
-      "subtitle": 43
-    },
-    {
-      "id": 291,
-      "title": "الْآخِرَةُ",
-      "subtitle": 115
-    },
-    {
-      "id": 292,
-      "title": "أَلِيْمٌ",
-      "subtitle": 72
-    },
-    {
-      "id": 293,
-      "title": "جَحِيْمٌ",
-      "subtitle": 26
-    },
-    {
-      "id": 294,
-      "title": "أَحَدٌ   إحْدَى",
-      "subtitle": 85
-    },
-    {
-      "id": 295,
-      "title": "إِلَهٌ   (آلِهَةٌ)",
-      "subtitle": 34
-    },
-    {
-      "id": 296,
-      "title": "شَرِيْكٌ   (شُرَكَاءٌ)",
-      "subtitle": 40
-    },
-    {
-      "id": 297,
-      "title": "شَهَادَةٌ",
-      "subtitle": 26
-    },
-    {
-      "id": 298,
-      "title": "عَرْشٌ",
-      "subtitle": 26
-    },
-    {
-      "id": 299,
-      "title": "عَهْدٌ",
-      "subtitle": 29
-    },
-    {
-      "id": 300,
-      "title": "غَيْبٌ",
-      "subtitle": 49
-    },
-    {
-      "id": 301,
-      "title": "كِتَابٌ   (كُتُبٌ)",
-      "subtitle": 261
-    },
-    {
-      "id": 302,
-      "title": "كَلِمَةٌ",
-      "subtitle": 42
-    },
-    {
-      "id": 303,
-      "title": "مَلَكٌ  (مَلَائِكَةٌ)",
-      "subtitle": 88
-    },
-    {
-      "id": 304,
-      "title": "وَاحِدٌ",
-      "subtitle": 61
-    },
-    {
-      "id": 305,
-      "title": "أَعْمَالٌ",
-      "subtitle": 41
-    },
-    {
-      "id": 306,
-      "title": "حَسَنَةٌ",
-      "subtitle": 31
-    },
-    {
-      "id": 307,
-      "title": "سَيِّئَةٌ",
-      "subtitle": 68
-    },
-    {
-      "id": 308,
-      "title": "خَيْرٌ",
-      "subtitle": 186
-    },
-    {
-      "id": 309,
-      "title": "شَرٌّ",
-      "subtitle": 29
-    },
-    {
-      "id": 310,
-      "title": "إِثْمٌ",
-      "subtitle": 35
-    },
-    {
-      "id": 311,
-      "title": "ذَنْبٌ   (ذُنُوبٌ)",
-      "subtitle": 37
-    },
-    {
-      "id": 312,
-      "title": "جُنَاحٌ",
-      "subtitle": 25
-    },
-    {
-      "id": 313,
-      "title": "حَرَامٌ",
-      "subtitle": 26
-    },
-    {
-      "id": 314,
-      "title": "اِسْمٌ   (أَسْمَاءٌ)",
-      "subtitle": 27
-    },
-    {
-      "id": 315,
-      "title": "حَدِيْثٌ  (أَحَادِيْثٌ)",
-      "subtitle": 23
-    },
-    {
-      "id": 316,
-      "title": "طَيِّبَةٌ",
-      "subtitle": 30
-    },
-    {
-      "id": 317,
-      "title": "آلَاء",
-      "subtitle": 34
-    },
-    {
-      "id": 318,
-      "title": "سُلْطَانٌ",
-      "subtitle": 37
-    },
-    {
-      "id": 319,
-      "title": "فَضْلٌ",
-      "subtitle": 84
-    },
-    {
-      "id": 320,
-      "title": "مَاءٌ",
-      "subtitle": 63
-    },
-    {
-      "id": 321,
-      "title": "مُلْكٌ",
-      "subtitle": 48
-    },
-    {
-      "id": 322,
-      "title": "نِعْمَةٌ",
-      "subtitle": 37
-    },
-    {
-      "id": 323,
-      "title": "أَجْمَعُوْنَ",
-      "subtitle": 26
-    },
-    {
-      "id": 324,
-      "title": "إِذْنٌ",
-      "subtitle": 39
-    },
-    {
-      "id": 325,
-      "title": "جَمِيْعٌ",
-      "subtitle": 53
-    },
-    {
-      "id": 326,
-      "title": "سَوَاءٌ",
-      "subtitle": 27
-    },
-    {
-      "id": 327,
-      "title": "فَرِيْقٌ",
-      "subtitle": 33
-    },
-    {
-      "id": 328,
-      "title": "بَيْتٌ   (بُيُوْتٌ)",
-      "subtitle": 64
-    },
-    {
-      "id": 329,
-      "title": "دَارٌ   (دِيَارٌ)",
-      "subtitle": 48
-    },
-    {
-      "id": 330,
-      "title": "دُنْيَا",
-      "subtitle": 115
-    },
-    {
-      "id": 331,
-      "title": "سَبِيْلٌ   (سُبُلٌ)",
-      "subtitle": 176
-    },
-    {
-      "id": 332,
-      "title": "صِرَاطٌ",
-      "subtitle": 46
-    },
-    {
-      "id": 333,
-      "title": "عَالَمٌ",
-      "subtitle": 73
-    },
-    {
-      "id": 334,
-      "title": "فِتْنَةٌ",
-      "subtitle": 34
-    },
-    {
-      "id": 335,
-      "title": "قَرْيَةٌ   (قُرَى)",
-      "subtitle": 57
-    },
-    {
-      "id": 336,
-      "title": "مَالٌ   (أَمْوَالٌ)",
-      "subtitle": 86
-    },
-    {
-      "id": 337,
-      "title": "مَتَاعٌ",
-      "subtitle": 34
-    },
-    {
-      "id": 338,
-      "title": "مَسْجِدٌ   (مَسَاجِدُ)",
-      "subtitle": 28
-    },
-    {
-      "id": 339,
-      "title": "أُمَّةٌ   (أُمَمٌ)",
-      "subtitle": 64
-    },
-    {
-      "id": 340,
-      "title": "اِنْسَانٌ   (نَاسٌ)",
-      "subtitle": 248
-    },
-    {
-      "id": 341,
-      "title": "ذَكَرٌ   (ذُكُوْرٌ)",
-      "subtitle": 16
-    },
-    {
-      "id": 342,
-      "title": "أُنْثَى   (إِنَاثٌ)",
-      "subtitle": 30
-    },
-    {
-      "id": 343,
-      "title": "عَبْدٌ   عِبَادٌ",
-      "subtitle": 126
-    },
-    {
-      "id": 344,
-      "title": "عَدُوٌّ   (أَعْدَاءٌ)",
-      "subtitle": 44
-    },
-    {
-      "id": 345,
-      "title": "كُفَّارٌ",
-      "subtitle": 21
-    },
-    {
-      "id": 346,
-      "title": "مُجْرِمٌ",
-      "subtitle": 52
-    },
-    {
-      "id": 347,
-      "title": "مَلَأٌ",
-      "subtitle": 22
-    },
-    {
-      "id": 348,
-      "title": "وَلِيٌّ   (أَوْلِيَاءُ)",
-      "subtitle": 86
-    },
-    {
-      "id": 349,
-      "title": "مَكَانٌ   (مَكَانَةٌ)",
-      "subtitle": 32
-    },
-    {
-      "id": 350,
-      "title": "أُوْلِى   (أُوْلُوا)",
-      "subtitle": 0
-    },
-    {
-      "id": 351,
-      "title": "أَهْلٌ",
-      "subtitle": 0
-    },
-    {
-      "id": 352,
-      "title": "آلٌ",
-      "subtitle": 0
-    },
-    {
-      "id": 353,
-      "title": "أَلَا",
-      "subtitle": 0
-    },
-    {
-      "id": 354,
-      "title": "نِعْمَ",
-      "subtitle": 0
-    },
-    {
-      "id": 355,
-      "title": "بِئْسَ",
-      "subtitle": 0
-    },
-    {
-      "id": 356,
-      "title": "بِئْسَمَا",
-      "subtitle": 0
-    },
-    {
-      "id": 357,
-      "title": "عِنْدَ",
-      "subtitle": 0
-    },
-    {
-      "id": 358,
-      "title": "مِثْلٌ",
-      "subtitle": 0
-    },
-    {
-      "id": 359,
-      "title": "مَثَلٌ   (أَمْثَالٌ)",
-      "subtitle": 0
-    },
-    {
-      "id": 360,
-      "title": "لَدَى   لَدُنْ",
-      "subtitle": 0
-    },
-    {
-      "id": 361,
-      "title": "بَلْ",
-      "subtitle": 0
-    },
-    {
-      "id": 362,
-      "title": "ثُمَّ",
-      "subtitle": 0
-    },
-    {
-      "id": 363,
-      "title": "قَبْلَ",
-      "subtitle": 0
-    },
-    {
-      "id": 364,
-      "title": "بَعْدَ",
-      "subtitle": 0
-    },
-    {
-      "id": 365,
-      "title": "حِيْنٌ",
-      "subtitle": 0
-    },
-    {
-      "id": 366,
-      "title": "فَوْقَ",
-      "subtitle": 0
-    },
-    {
-      "id": 367,
-      "title": "تَحْتَ",
-      "subtitle": 0
-    },
-    {
-      "id": 368,
-      "title": "بَيْنَ   أَيْدِي",
-      "subtitle": 0
-    },
-    {
-      "id": 369,
-      "title": "خَلْفَ",
-      "subtitle": 0
-    },
-    {
-      "id": 370,
-      "title": "أَمَامَ",
-      "subtitle": 0
-    },
-    {
-      "id": 371,
-      "title": "وَرَاءَ",
-      "subtitle": 0
-    },
-    {
-      "id": 372,
-      "title": "يَمِيْنٌ   (أَيْمَانٌ)",
-      "subtitle": 0
-    },
-    {
-      "id": 373,
-      "title": "شِمَالٌ   (شَمَائِلُ)",
-      "subtitle": 0
-    },
-    {
-      "id": 374,
-      "title": "بَيْنَ",
-      "subtitle": 0
-    },
-    {
-      "id": 375,
-      "title": "حَوْلَ",
-      "subtitle": 0
-    },
-    {
-      "id": 376,
-      "title": "حَيْثُ",
-      "subtitle": 0
-    },
-    {
-      "id": 377,
-      "title": "أَيْنَمَا",
-      "subtitle": 0
-    },
-    {
-      "id": 378,
-      "title": "مَا",
-      "subtitle": 0
-    },
-    {
-      "id": 379,
-      "title": "مَنْ",
-      "subtitle": 0
-    },
-    {
-      "id": 380,
-      "title": "مَتَي",
-      "subtitle": 0
-    },
-    {
-      "id": 381,
-      "title": "أَيْنَ",
-      "subtitle": 0
-    },
-    {
-      "id": 382,
-      "title": "كَيْفَ",
-      "subtitle": 0
-    },
-    {
-      "id": 383,
-      "title": "كَمْ",
-      "subtitle": 0
-    },
-    {
-      "id": 384,
-      "title": "أَيُّ",
-      "subtitle": 0
-    },
-    {
-      "id": 385,
-      "title": "أَنَّي",
-      "subtitle": 0
-    },
-    {
-      "id": 386,
-      "title": "هَلْ",
-      "subtitle": 0
-    },
-    {
-      "id": 387,
-      "title": "مَاذَا",
-      "subtitle": 0
-    },
-    {
-      "id": 388,
-      "title": "لِمَاذَا",
-      "subtitle": 0
-    },
-    {
-      "id": 389,
-      "title": "إنَّمَا",
-      "subtitle": 0
-    }
-  ]
+  {
+    "id": 1,
+    "title": "نَصَرَ",
+    "subtitle": 92
+  },
+  {
+    "id": 2,
+    "title": "بَلَغَ",
+    "subtitle": 49
+  },
+  {
+    "id": 3,
+    "title": "تَرَكَ",
+    "subtitle": 43
+  },
+  {
+    "id": 4,
+    "title": "حَشَرَ",
+    "subtitle": 43
+  },
+  {
+    "id": 5,
+    "title": "حَكَمَ",
+    "subtitle": 80
+  },
+  {
+    "id": 6,
+    "title": "خَرَجَ",
+    "subtitle": 61
+  },
+  {
+    "id": 7,
+    "title": "خَلَدَ",
+    "subtitle": 83
+  },
+  {
+    "id": 8,
+    "title": "خَلَقَ",
+    "subtitle": 248
+  },
+  {
+    "id": 9,
+    "title": "دَخَلَ",
+    "subtitle": 78
+  },
+  {
+    "id": 10,
+    "title": "ذَكَرَ",
+    "subtitle": 163
+  },
+  {
+    "id": 11,
+    "title": "رَزَقَ",
+    "subtitle": 122
+  },
+  {
+    "id": 12,
+    "title": "سَجَدَ",
+    "subtitle": 49
+  },
+  {
+    "id": 13,
+    "title": "شَعَرَ",
+    "subtitle": 29
+  },
+  {
+    "id": 14,
+    "title": "شَكَرَ",
+    "subtitle": 63
+  },
+  {
+    "id": 15,
+    "title": "صَدَقَ",
+    "subtitle": 89
+  },
+  {
+    "id": 16,
+    "title": "عَبَدَ",
+    "subtitle": 143
+  },
+  {
+    "id": 17,
+    "title": "فَسَقَ",
+    "subtitle": 54
+  },
+  {
+    "id": 18,
+    "title": "قَتَلَ",
+    "subtitle": 93
+  },
+  {
+    "id": 19,
+    "title": "قَعَدَ",
+    "subtitle": 23
+  },
+  {
+    "id": 20,
+    "title": "كَتَبَ",
+    "subtitle": 56
+  },
+  {
+    "id": 21,
+    "title": "كَفَرَ",
+    "subtitle": 461
+  },
+  {
+    "id": 22,
+    "title": "مَكَرَ",
+    "subtitle": 43
+  },
+  {
+    "id": 23,
+    "title": "نَظَرَ",
+    "subtitle": 95
+  },
+  {
+    "id": 24,
+    "title": "فَتَحَ",
+    "subtitle": 29
+  },
+  {
+    "id": 25,
+    "title": "بَعَثَ",
+    "subtitle": 65
+  },
+  {
+    "id": 26,
+    "title": "جَعَلَ",
+    "subtitle": 346
+  },
+  {
+    "id": 27,
+    "title": "جَمَعَ",
+    "subtitle": 40
+  },
+  {
+    "id": 28,
+    "title": "ذَهَبَ",
+    "subtitle": 35
+  },
+  {
+    "id": 29,
+    "title": "رَفَعَ",
+    "subtitle": 28
+  },
+  {
+    "id": 30,
+    "title": "سَحَرَ",
+    "subtitle": 49
+  },
+  {
+    "id": 31,
+    "title": "صَلَحَ",
+    "subtitle": 131
+  },
+  {
+    "id": 32,
+    "title": "لَعَنَ",
+    "subtitle": 27
+  },
+  {
+    "id": 33,
+    "title": "نَفَعَ",
+    "subtitle": 42
+  },
+  {
+    "id": 34,
+    "title": "فَعَلَ",
+    "subtitle": 105
+  },
+  {
+    "id": 35,
+    "title": "ضَرَبَ",
+    "subtitle": 58
+  },
+  {
+    "id": 36,
+    "title": "حَمَلَ",
+    "subtitle": 50
+  },
+  {
+    "id": 37,
+    "title": "صَبَرَ",
+    "subtitle": 94
+  },
+  {
+    "id": 38,
+    "title": "ظَلَمَ",
+    "subtitle": 266
+  },
+  {
+    "id": 39,
+    "title": "عَرَفَ",
+    "subtitle": 59
+  },
+  {
+    "id": 40,
+    "title": "عَقَلَ",
+    "subtitle": 49
+  },
+  {
+    "id": 41,
+    "title": "غَفَرَ",
+    "subtitle": 95
+  },
+  {
+    "id": 42,
+    "title": "قَدَرَ",
+    "subtitle": 47
+  },
+  {
+    "id": 43,
+    "title": "كَذَبَ",
+    "subtitle": 76
+  },
+  {
+    "id": 44,
+    "title": "كَسَبَ",
+    "subtitle": 62
+  },
+  {
+    "id": 45,
+    "title": "مَلَكَ",
+    "subtitle": 49
+  },
+  {
+    "id": 46,
+    "title": "سَمِعَ",
+    "subtitle": 100
+  },
+  {
+    "id": 47,
+    "title": "حَزِنَ",
+    "subtitle": 30
+  },
+  {
+    "id": 48,
+    "title": "حَسِبَ",
+    "subtitle": 46
+  },
+  {
+    "id": 49,
+    "title": "حَفِظَ",
+    "subtitle": 27
+  },
+  {
+    "id": 50,
+    "title": "خَسِرَ",
+    "subtitle": 51
+  },
+  {
+    "id": 51,
+    "title": "رَحِمَ",
+    "subtitle": 148
+  },
+  {
+    "id": 52,
+    "title": "شَهِدَ",
+    "subtitle": 66
+  },
+  {
+    "id": 53,
+    "title": "عَلِمَ",
+    "subtitle": 518
+  },
+  {
+    "id": 54,
+    "title": "عَمِلَ",
+    "subtitle": 318
+  },
+  {
+    "id": 55,
+    "title": "كَرِهَ",
+    "subtitle": 25
+  },
+  {
+    "id": 56,
+    "title": "حَيِيَ",
+    "subtitle": 83
+  },
+  {
+    "id": 57,
+    "title": "رَدَّ",
+    "subtitle": 45
+  },
+  {
+    "id": 58,
+    "title": "صَدَّ",
+    "subtitle": 39
+  },
+  {
+    "id": 59,
+    "title": "ضَرَّ",
+    "subtitle": 31
+  },
+  {
+    "id": 60,
+    "title": "ضَلَّ",
+    "subtitle": 113
+  },
+  {
+    "id": 61,
+    "title": "ظَنَّ",
+    "subtitle": 68
+  },
+  {
+    "id": 62,
+    "title": "عَدَّ",
+    "subtitle": 17
+  },
+  {
+    "id": 63,
+    "title": "غَرَّ",
+    "subtitle": 24
+  },
+  {
+    "id": 64,
+    "title": "مَدَّ",
+    "subtitle": 17
+  },
+  {
+    "id": 65,
+    "title": "مَسَّ",
+    "subtitle": 58
+  },
+  {
+    "id": 66,
+    "title": "وَدَّ",
+    "subtitle": 18
+  },
+  {
+    "id": 67,
+    "title": "وَذَرَ",
+    "subtitle": 45
+  },
+  {
+    "id": 68,
+    "title": "وَضَعَ",
+    "subtitle": 22
+  },
+  {
+    "id": 69,
+    "title": "وَقَعَ",
+    "subtitle": 20
+  },
+  {
+    "id": 70,
+    "title": "وَهَبَ",
+    "subtitle": 23
+  },
+  {
+    "id": 71,
+    "title": "وَجَدَ",
+    "subtitle": 107
+  },
+  {
+    "id": 72,
+    "title": "وَرِثَ",
+    "subtitle": 19
+  },
+  {
+    "id": 73,
+    "title": "وَزَرَ",
+    "subtitle": 19
+  },
+  {
+    "id": 74,
+    "title": "وَصَفَ",
+    "subtitle": 14
+  },
+  {
+    "id": 75,
+    "title": "وَعَدَ",
+    "subtitle": 124
+  },
+  {
+    "id": 76,
+    "title": "وَقَى",
+    "subtitle": 19
+  },
+  {
+    "id": 77,
+    "title": "وَسِعَ",
+    "subtitle": 25
+  },
+  {
+    "id": 78,
+    "title": "قَالَ",
+    "subtitle": 1719
+  },
+  {
+    "id": 79,
+    "title": "تَاتَ",
+    "subtitle": 72
+  },
+  {
+    "id": 80,
+    "title": "ذَاقَ",
+    "subtitle": 42
+  },
+  {
+    "id": 81,
+    "title": "فَازَ",
+    "subtitle": 26
+  },
+  {
+    "id": 82,
+    "title": "قَامَ",
+    "subtitle": 55
+  },
+  {
+    "id": 83,
+    "title": "كَانَ",
+    "subtitle": 1361
+  },
+  {
+    "id": 84,
+    "title": "مَاتَ",
+    "subtitle": 93
+  },
+  {
+    "id": 85,
+    "title": "خَافَ",
+    "subtitle": 112
+  },
+  {
+    "id": 86,
+    "title": "كَادَ",
+    "subtitle": 24
+  },
+  {
+    "id": 87,
+    "title": "كَادَ",
+    "subtitle": 35
+  },
+  {
+    "id": 88,
+    "title": "زَادَ",
+    "subtitle": 51
+  },
+  {
+    "id": 89,
+    "title": "تَلَى",
+    "subtitle": 61
+  },
+  {
+    "id": 90,
+    "title": "دَعَا",
+    "subtitle": 197
+  },
+  {
+    "id": 91,
+    "title": "عَفَا",
+    "subtitle": 30
+  },
+  {
+    "id": 92,
+    "title": "بَغَى",
+    "subtitle": 29
+  },
+  {
+    "id": 93,
+    "title": "جَرَى",
+    "subtitle": 60
+  },
+  {
+    "id": 94,
+    "title": "جَزَى",
+    "subtitle": 116
+  },
+  {
+    "id": 95,
+    "title": "قَضَى",
+    "subtitle": 62
+  },
+  {
+    "id": 96,
+    "title": "كَفَى",
+    "subtitle": 32
+  },
+  {
+    "id": 97,
+    "title": "هَدَى",
+    "subtitle": 163
+  },
+  {
+    "id": 98,
+    "title": "خَشِيَ",
+    "subtitle": 48
+  },
+  {
+    "id": 99,
+    "title": "رَضِيَ",
+    "subtitle": 57
+  },
+  {
+    "id": 100,
+    "title": "سَأَلَ",
+    "subtitle": 119
+  },
+  {
+    "id": 101,
+    "title": "قَرَأَ",
+    "subtitle": 17
+  },
+  {
+    "id": 102,
+    "title": "أَخَذَ",
+    "subtitle": 142
+  },
+  {
+    "id": 103,
+    "title": "أَكَلَ",
+    "subtitle": 101
+  },
+  {
+    "id": 104,
+    "title": "أَمَرَ",
+    "subtitle": 232
+  },
+  {
+    "id": 105,
+    "title": "أَمِنَ",
+    "subtitle": 25
+  },
+  {
+    "id": 106,
+    "title": "أَبَي",
+    "subtitle": 13
+  },
+  {
+    "id": 107,
+    "title": "رَأَى",
+    "subtitle": 269
+  },
+  {
+    "id": 108,
+    "title": "أَتَى",
+    "subtitle": 263
+  },
+  {
+    "id": 109,
+    "title": "شَاءَ",
+    "subtitle": 277
+  },
+  {
+    "id": 110,
+    "title": "سَاءَ",
+    "subtitle": 39
+  },
+  {
+    "id": 111,
+    "title": "جَاءَ",
+    "subtitle": 236
+  },
+  {
+    "id": 112,
+    "title": "بَدَّلَ",
+    "subtitle": 33
+  },
+  {
+    "id": 113,
+    "title": "بَشَّرَ",
+    "subtitle": 48
+  },
+  {
+    "id": 114,
+    "title": "بَيَّنَ",
+    "subtitle": 35
+  },
+  {
+    "id": 115,
+    "title": "زَيَّنَ",
+    "subtitle": 26
+  },
+  {
+    "id": 116,
+    "title": "سَبَّحَ",
+    "subtitle": 48
+  },
+  {
+    "id": 117,
+    "title": "سَخَّرَ",
+    "subtitle": 26
+  },
+  {
+    "id": 118,
+    "title": "صَدَّقَ",
+    "subtitle": 31
+  },
+  {
+    "id": 119,
+    "title": "عَذَّبَ",
+    "subtitle": 49
+  },
+  {
+    "id": 120,
+    "title": "عَلَّمَ",
+    "subtitle": 42
+  },
+  {
+    "id": 121,
+    "title": "قَدَّمَ",
+    "subtitle": 27
+  },
+  {
+    "id": 122,
+    "title": "كَذَّبَ",
+    "subtitle": 198
+  },
+  {
+    "id": 123,
+    "title": "نَبَّأَ",
+    "subtitle": 46
+  },
+  {
+    "id": 124,
+    "title": "نَزَّلَ",
+    "subtitle": 79
+  },
+  {
+    "id": 125,
+    "title": "نَجَّي",
+    "subtitle": 39
+  },
+  {
+    "id": 126,
+    "title": "وَلَّى",
+    "subtitle": 45
+  },
+  {
+    "id": 127,
+    "title": "جَاهَدَ",
+    "subtitle": 31
+  },
+  {
+    "id": 128,
+    "title": "قَاتَلَ",
+    "subtitle": 54
+  },
+  {
+    "id": 129,
+    "title": "نَادَى",
+    "subtitle": 44
+  },
+  {
+    "id": 130,
+    "title": "نَافَقَ",
+    "subtitle": 34
+  },
+  {
+    "id": 131,
+    "title": "هَاجَرَ",
+    "subtitle": 24
+  },
+  {
+    "id": 132,
+    "title": "أَبْصَرَ",
+    "subtitle": 36
+  },
+  {
+    "id": 133,
+    "title": "أَحْسَنَ",
+    "subtitle": 72
+  },
+  {
+    "id": 134,
+    "title": "أَخْرَجَ",
+    "subtitle": 108
+  },
+  {
+    "id": 135,
+    "title": "أَدْخَلَ",
+    "subtitle": 45
+  },
+  {
+    "id": 136,
+    "title": "أَرْجَعَ",
+    "subtitle": 33
+  },
+  {
+    "id": 137,
+    "title": "أَرْسَلَ",
+    "subtitle": 135
+  },
+  {
+    "id": 138,
+    "title": "أَسْرَفَ",
+    "subtitle": 23
+  },
+  {
+    "id": 139,
+    "title": "أَسْلَمَ",
+    "subtitle": 72
+  },
+  {
+    "id": 140,
+    "title": "أَشْرَكَ",
+    "subtitle": 120
+  },
+  {
+    "id": 141,
+    "title": "أَصْبَحَ",
+    "subtitle": 34
+  },
+  {
+    "id": 142,
+    "title": "أَصْلَحَ",
+    "subtitle": 40
+  },
+  {
+    "id": 143,
+    "title": "أَعْرَضَ",
+    "subtitle": 53
+  },
+  {
+    "id": 144,
+    "title": "أَغْرَقَ",
+    "subtitle": 21
+  },
+  {
+    "id": 145,
+    "title": "أَفْسَدَ",
+    "subtitle": 36
+  },
+  {
+    "id": 146,
+    "title": "أَفْلَحَ",
+    "subtitle": 40
+  },
+  {
+    "id": 147,
+    "title": "أَنْبَتَ",
+    "subtitle": 16
+  },
+  {
+    "id": 148,
+    "title": "أَنْذَرَ",
+    "subtitle": 70
+  },
+  {
+    "id": 149,
+    "title": "أَنْزَلَ",
+    "subtitle": 190
+  },
+  {
+    "id": 150,
+    "title": "أَنْشَأَ",
+    "subtitle": 22
+  },
+  {
+    "id": 151,
+    "title": "أَنْعَمَ",
+    "subtitle": 17
+  },
+  {
+    "id": 152,
+    "title": "أَنْفَقَ",
+    "subtitle": 69
+  },
+  {
+    "id": 153,
+    "title": "أَنْكَرَ",
+    "subtitle": 25
+  },
+  {
+    "id": 154,
+    "title": "أَهْلَكَ",
+    "subtitle": 58
+  },
+  {
+    "id": 155,
+    "title": "أَتَمَّ",
+    "subtitle": 17
+  },
+  {
+    "id": 156,
+    "title": "أَحَبَّ",
+    "subtitle": 64
+  },
+  {
+    "id": 157,
+    "title": "أَحَلَّ",
+    "subtitle": 21
+  },
+  {
+    "id": 158,
+    "title": "أَسَرَّ",
+    "subtitle": 18
+  },
+  {
+    "id": 159,
+    "title": "أَضَلَّ",
+    "subtitle": 68
+  },
+  {
+    "id": 160,
+    "title": "أَعَدَّ",
+    "subtitle": 20
+  },
+  {
+    "id": 161,
+    "title": "أَذَاقَ",
+    "subtitle": 22
+  },
+  {
+    "id": 162,
+    "title": "أَرَادَ",
+    "subtitle": 139
+  },
+  {
+    "id": 163,
+    "title": "أَصَابَ",
+    "subtitle": 65
+  },
+  {
+    "id": 164,
+    "title": "أَطَاعَ",
+    "subtitle": 74
+  },
+  {
+    "id": 165,
+    "title": "أَقَامَ",
+    "subtitle": 67
+  },
+  {
+    "id": 166,
+    "title": "أَمَاتَ",
+    "subtitle": 21
+  },
+  {
+    "id": 167,
+    "title": "أَحْيَا",
+    "subtitle": 53
+  },
+  {
+    "id": 168,
+    "title": "أَخْفَى",
+    "subtitle": 18
+  },
+  {
+    "id": 169,
+    "title": "أَرَى",
+    "subtitle": 44
+  },
+  {
+    "id": 170,
+    "title": "أَغْنَى",
+    "subtitle": 41
+  },
+  {
+    "id": 171,
+    "title": "أَلْقَى",
+    "subtitle": 71
+  },
+  {
+    "id": 172,
+    "title": "أَنْجَى",
+    "subtitle": 23
+  },
+  {
+    "id": 173,
+    "title": "أَوْحَى",
+    "subtitle": 72
+  },
+  {
+    "id": 174,
+    "title": "أَوْفَى",
+    "subtitle": 18
+  },
+  {
+    "id": 175,
+    "title": "آمَنَ",
+    "subtitle": 782
+  },
+  {
+    "id": 176,
+    "title": "آتَي",
+    "subtitle": 274
+  },
+  {
+    "id": 177,
+    "title": "آذَى",
+    "subtitle": 16
+  },
+  {
+    "id": 178,
+    "title": "تَفَكَّرَ",
+    "subtitle": 17
+  },
+  {
+    "id": 179,
+    "title": "تَذَكَّرَ",
+    "subtitle": 51
+  },
+  {
+    "id": 180,
+    "title": "تَوَكَّلَ",
+    "subtitle": 44
+  },
+  {
+    "id": 181,
+    "title": "تَبَيَّنَ",
+    "subtitle": 18
+  },
+  {
+    "id": 182,
+    "title": "تَرَبَّصَ",
+    "subtitle": 17
+  },
+  {
+    "id": 183,
+    "title": "تَوَلَّى",
+    "subtitle": 79
+  },
+  {
+    "id": 184,
+    "title": "تَوَفَّى",
+    "subtitle": 25
+  },
+  {
+    "id": 185,
+    "title": "تَبَارَكَ",
+    "subtitle": 9
+  },
+  {
+    "id": 186,
+    "title": "تَسَاءَلَ",
+    "subtitle": 9
+  },
+  {
+    "id": 187,
+    "title": "اِخْتَلَفَ",
+    "subtitle": 52
+  },
+  {
+    "id": 188,
+    "title": "اِتَّبَعَ",
+    "subtitle": 140
+  },
+  {
+    "id": 189,
+    "title": "اِتَّخَذَ",
+    "subtitle": 128
+  },
+  {
+    "id": 190,
+    "title": "اِتَّقَى",
+    "subtitle": 215
+  },
+  {
+    "id": 191,
+    "title": "اِفْتَرَى",
+    "subtitle": 59
+  },
+  {
+    "id": 192,
+    "title": "اِهْتَدَى",
+    "subtitle": 61
+  },
+  {
+    "id": 193,
+    "title": "اِبْتَغَى",
+    "subtitle": 48
+  },
+  {
+    "id": 194,
+    "title": "اِنْقَلَبَ",
+    "subtitle": 20
+  },
+  {
+    "id": 195,
+    "title": "اِنْتَهَى",
+    "subtitle": 16
+  },
+  {
+    "id": 196,
+    "title": "اِسْوَدَّ",
+    "subtitle": 3
+  },
+  {
+    "id": 197,
+    "title": "إِبْيَضَّ",
+    "subtitle": 3
+  },
+  {
+    "id": 198,
+    "title": "إِسْتَعْجَلَ",
+    "subtitle": 20
+  },
+  {
+    "id": 199,
+    "title": "اِسْتَغْفَرَ",
+    "subtitle": 42
+  },
+  {
+    "id": 200,
+    "title": "اِسْتَكْبَرَ",
+    "subtitle": 48
+  },
+  {
+    "id": 201,
+    "title": "اِسْتَهْزَأَ",
+    "subtitle": 23
+  },
+  {
+    "id": 202,
+    "title": "اِسْتَجَابَ",
+    "subtitle": 28
+  },
+  {
+    "id": 203,
+    "title": "اِسْتَطَاعَ",
+    "subtitle": 42
+  },
+  {
+    "id": 204,
+    "title": "اِسْتَقَامَ",
+    "subtitle": 47
+  },
+  {
+    "id": 205,
+    "title": "ضَرَبَ  فِي",
+    "subtitle": 0
+  },
+  {
+    "id": 206,
+    "title": "ضَرَبَ  لِ",
+    "subtitle": 0
+  },
+  {
+    "id": 207,
+    "title": "ضَرَبَ  مَثَلاً",
+    "subtitle": 0
+  },
+  {
+    "id": 208,
+    "title": "عَفَا عَنْ",
+    "subtitle": 0
+  },
+  {
+    "id": 209,
+    "title": "قَضَى بَيْنَ",
+    "subtitle": 0
+  },
+  {
+    "id": 210,
+    "title": "قَضَى عَلَى",
+    "subtitle": 0
+  },
+  {
+    "id": 211,
+    "title": "وَضَعَ عَنْ",
+    "subtitle": 0
+  },
+  {
+    "id": 212,
+    "title": "وَلَّى إِلَى",
+    "subtitle": 0
+  },
+  {
+    "id": 213,
+    "title": "وَلَّى عَنْ",
+    "subtitle": 0
+  },
+  {
+    "id": 214,
+    "title": "أَتَى  بِ",
+    "subtitle": 0
+  },
+  {
+    "id": 215,
+    "title": "بَغَى  عَلَى",
+    "subtitle": 0
+  },
+  {
+    "id": 216,
+    "title": "تَابَ  إِلَى",
+    "subtitle": 0
+  },
+  {
+    "id": 217,
+    "title": "تَابَ  عَلَى",
+    "subtitle": 0
+  },
+  {
+    "id": 218,
+    "title": "جَاءَ  بِ",
+    "subtitle": 0
+  },
+  {
+    "id": 219,
+    "title": "ذَهَبَ  بِ",
+    "subtitle": 0
+  },
+  {
+    "id": 220,
+    "title": "رَضِيَ  عَنْ",
+    "subtitle": 0
+  },
+  {
+    "id": 221,
+    "title": "نَذِيْرٌ",
+    "subtitle": 44
+  },
+  {
+    "id": 222,
+    "title": "نَصِيْرٌ",
+    "subtitle": 24
+  },
+  {
+    "id": 223,
+    "title": "حَلِيْمٌ",
+    "subtitle": 15
+  },
+  {
+    "id": 224,
+    "title": "بَعِيْدٌ",
+    "subtitle": 25
+  },
+  {
+    "id": 225,
+    "title": "أَمِيْنٌ",
+    "subtitle": 14
+  },
+  {
+    "id": 226,
+    "title": "آخَرٌ",
+    "subtitle": 65
+  },
+  {
+    "id": 227,
+    "title": "آخِرٌ",
+    "subtitle": 40
+  },
+  {
+    "id": 228,
+    "title": "أَوَّلٌ",
+    "subtitle": 82
+  },
+  {
+    "id": 229,
+    "title": "حَمِيْمٌ",
+    "subtitle": 20
+  },
+  {
+    "id": 230,
+    "title": "شَدِيْدٌ",
+    "subtitle": 52
+  },
+  {
+    "id": 231,
+    "title": "عَلِيٌّ",
+    "subtitle": 11
+  },
+  {
+    "id": 232,
+    "title": "قَرِيْبٌ",
+    "subtitle": 26
+  },
+  {
+    "id": 233,
+    "title": "كَبِيْرٌ",
+    "subtitle": 44
+  },
+  {
+    "id": 234,
+    "title": "كَثِيْرٌ",
+    "subtitle": 74
+  },
+  {
+    "id": 235,
+    "title": "أَشَدُّ",
+    "subtitle": 31
+  },
+  {
+    "id": 236,
+    "title": "أَعْلَى",
+    "subtitle": 11
+  },
+  {
+    "id": 237,
+    "title": "أَعْلَمُ",
+    "subtitle": 49
+  },
+  {
+    "id": 238,
+    "title": "أَقْرَبُ",
+    "subtitle": 19
+  },
+  {
+    "id": 239,
+    "title": "أَكْبَرُ",
+    "subtitle": 23
+  },
+  {
+    "id": 240,
+    "title": "أَكْثَرُ",
+    "subtitle": 80
+  },
+  {
+    "id": 241,
+    "title": "أَحْسَنُ",
+    "subtitle": 36
+  },
+  {
+    "id": 242,
+    "title": "أَحْقُّ",
+    "subtitle": 10
+  },
+  {
+    "id": 243,
+    "title": "أَدْنَى",
+    "subtitle": 12
+  },
+  {
+    "id": 244,
+    "title": "أَظْلَمُ",
+    "subtitle": 16
+  },
+  {
+    "id": 245,
+    "title": "أَهْدَى",
+    "subtitle": 7
+  },
+  {
+    "id": 246,
+    "title": "سَرِيْعٌ",
+    "subtitle": 10
+  },
+  {
+    "id": 247,
+    "title": "قَلِيْلٌ",
+    "subtitle": 71
+  },
+  {
+    "id": 248,
+    "title": "رَسُوْلٌ",
+    "subtitle": 332
+  },
+  {
+    "id": 249,
+    "title": "نَبِّيٌ",
+    "subtitle": 75
+  },
+  {
+    "id": 250,
+    "title": "نَبِيُّوْنَ",
+    "subtitle": 75
+  },
+  {
+    "id": 251,
+    "title": "آيَةٌ",
+    "subtitle": 382
+  },
+  {
+    "id": 252,
+    "title": "بَيِّنَةٌ",
+    "subtitle": 71
+  },
+  {
+    "id": 253,
+    "title": "شَيْطَانٌ",
+    "subtitle": 88
+  },
+  {
+    "id": 254,
+    "title": "جَبَلٌ",
+    "subtitle": 39
+  },
+  {
+    "id": 255,
+    "title": "بَحْرٌ",
+    "subtitle": 38
+  },
+  {
+    "id": 256,
+    "title": "شَمْسٌ",
+    "subtitle": 33
+  },
+  {
+    "id": 257,
+    "title": "قَمَرٌ",
+    "subtitle": 33
+  },
+  {
+    "id": 258,
+    "title": "لَيْلٌ",
+    "subtitle": 80
+  },
+  {
+    "id": 259,
+    "title": "نَهَارٌ",
+    "subtitle": 57
+  },
+  {
+    "id": 260,
+    "title": "أَرْضٌ",
+    "subtitle": 461
+  },
+  {
+    "id": 261,
+    "title": "سَمَاءٌ",
+    "subtitle": 310
+  },
+  {
+    "id": 262,
+    "title": "عِقَابٌ",
+    "subtitle": 20
+  },
+  {
+    "id": 263,
+    "title": "عَاقِبَةٌ",
+    "subtitle": 32
+  },
+  {
+    "id": 264,
+    "title": "عَذَابٌ",
+    "subtitle": 332
+  },
+  {
+    "id": 265,
+    "title": "قِيَامَةٌ",
+    "subtitle": 70
+  },
+  {
+    "id": 266,
+    "title": "لِقَاءٌ",
+    "subtitle": 24
+  },
+  {
+    "id": 267,
+    "title": "صَاحِبٌ",
+    "subtitle": 94
+  },
+  {
+    "id": 268,
+    "title": "نَارٌ",
+    "subtitle": 145
+  },
+  {
+    "id": 269,
+    "title": "نَهَرٌ",
+    "subtitle": 54
+  },
+  {
+    "id": 270,
+    "title": "وَيْلٌ",
+    "subtitle": 40
+  },
+  {
+    "id": 271,
+    "title": "يَوْمٌ",
+    "subtitle": 393
+  },
+  {
+    "id": 272,
+    "title": "يَوْمَئِذٍ",
+    "subtitle": 70
+  },
+  {
+    "id": 273,
+    "title": "أَبَداً",
+    "subtitle": 28
+  },
+  {
+    "id": 274,
+    "title": "أَجْرٌ",
+    "subtitle": 105
+  },
+  {
+    "id": 275,
+    "title": "أَجَلٌ",
+    "subtitle": 52
+  },
+  {
+    "id": 276,
+    "title": "جَنَّةٌ",
+    "subtitle": 147
+  },
+  {
+    "id": 277,
+    "title": "ثَوَابٌ",
+    "subtitle": 13
+  },
+  {
+    "id": 278,
+    "title": "حِسَابٌ",
+    "subtitle": 39
+  },
+  {
+    "id": 279,
+    "title": "أَمْرٌ",
+    "subtitle": 13
+  },
+  {
+    "id": 280,
+    "title": "تَقْوَى",
+    "subtitle": 17
+  },
+  {
+    "id": 281,
+    "title": "حَقٌّ",
+    "subtitle": 247
+  },
+  {
+    "id": 282,
+    "title": "بَاطِلٌ",
+    "subtitle": 26
+  },
+  {
+    "id": 283,
+    "title": "حِكْمَةٌ",
+    "subtitle": 20
+  },
+  {
+    "id": 284,
+    "title": "حَمْدٌ",
+    "subtitle": 43
+  },
+  {
+    "id": 285,
+    "title": "دِيْنٌ",
+    "subtitle": 92
+  },
+  {
+    "id": 286,
+    "title": "زَكَاةٌ",
+    "subtitle": 32
+  },
+  {
+    "id": 287,
+    "title": "شَهِيْدٌ",
+    "subtitle": 56
+  },
+  {
+    "id": 288,
+    "title": "صَلَاةٌ",
+    "subtitle": 83
+  },
+  {
+    "id": 289,
+    "title": "مُبِيْنٌ",
+    "subtitle": 119
+  },
+  {
+    "id": 290,
+    "title": "نُوْرٌ",
+    "subtitle": 43
+  },
+  {
+    "id": 291,
+    "title": "الْآخِرَةُ",
+    "subtitle": 115
+  },
+  {
+    "id": 292,
+    "title": "أَلِيْمٌ",
+    "subtitle": 72
+  },
+  {
+    "id": 293,
+    "title": "جَحِيْمٌ",
+    "subtitle": 26
+  },
+  {
+    "id": 294,
+    "title": "أَحَدٌ",
+    "subtitle": 85
+  },
+  {
+    "id": 295,
+    "title": "إِلَهٌ",
+    "subtitle": 34
+  },
+  {
+    "id": 296,
+    "title": "شَرِيْكٌ",
+    "subtitle": 40
+  },
+  {
+    "id": 297,
+    "title": "شَهَادَةٌ",
+    "subtitle": 26
+  },
+  {
+    "id": 298,
+    "title": "عَرْشٌ",
+    "subtitle": 26
+  },
+  {
+    "id": 299,
+    "title": "عَهْدٌ",
+    "subtitle": 29
+  },
+  {
+    "id": 300,
+    "title": "غَيْبٌ",
+    "subtitle": 49
+  },
+  {
+    "id": 301,
+    "title": "كِتَابٌ",
+    "subtitle": 261
+  },
+  {
+    "id": 302,
+    "title": "كَلِمَةٌ",
+    "subtitle": 42
+  },
+  {
+    "id": 303,
+    "title": "مَلَكٌ",
+    "subtitle": 88
+  },
+  {
+    "id": 304,
+    "title": "وَاحِدٌ",
+    "subtitle": 61
+  },
+  {
+    "id": 305,
+    "title": "أَعْمَالٌ",
+    "subtitle": 41
+  },
+  {
+    "id": 306,
+    "title": "حَسَنَةٌ",
+    "subtitle": 31
+  },
+  {
+    "id": 307,
+    "title": "سَيِّئَةٌ",
+    "subtitle": 68
+  },
+  {
+    "id": 308,
+    "title": "خَيْرٌ",
+    "subtitle": 186
+  },
+  {
+    "id": 309,
+    "title": "شَرٌّ",
+    "subtitle": 29
+  },
+  {
+    "id": 310,
+    "title": "إِثْمٌ",
+    "subtitle": 35
+  },
+  {
+    "id": 311,
+    "title": "ذَنْبٌ",
+    "subtitle": 37
+  },
+  {
+    "id": 312,
+    "title": "جُنَاحٌ",
+    "subtitle": 25
+  },
+  {
+    "id": 313,
+    "title": "حَرَامٌ",
+    "subtitle": 26
+  },
+  {
+    "id": 314,
+    "title": "اِسْمٌ",
+    "subtitle": 27
+  },
+  {
+    "id": 315,
+    "title": "حَدِيْثٌ",
+    "subtitle": 23
+  },
+  {
+    "id": 316,
+    "title": "طَيِّبَةٌ",
+    "subtitle": 30
+  },
+  {
+    "id": 317,
+    "title": "آلَاء",
+    "subtitle": 34
+  },
+  {
+    "id": 318,
+    "title": "سُلْطَانٌ",
+    "subtitle": 37
+  },
+  {
+    "id": 319,
+    "title": "فَضْلٌ",
+    "subtitle": 84
+  },
+  {
+    "id": 320,
+    "title": "مَاءٌ",
+    "subtitle": 63
+  },
+  {
+    "id": 321,
+    "title": "مُلْكٌ",
+    "subtitle": 48
+  },
+  {
+    "id": 322,
+    "title": "نِعْمَةٌ",
+    "subtitle": 37
+  },
+  {
+    "id": 323,
+    "title": "أَجْمَعُوْنَ",
+    "subtitle": 26
+  },
+  {
+    "id": 324,
+    "title": "إِذْنٌ",
+    "subtitle": 39
+  },
+  {
+    "id": 325,
+    "title": "جَمِيْعٌ",
+    "subtitle": 53
+  },
+  {
+    "id": 326,
+    "title": "سَوَاءٌ",
+    "subtitle": 27
+  },
+  {
+    "id": 327,
+    "title": "فَرِيْقٌ",
+    "subtitle": 33
+  },
+  {
+    "id": 328,
+    "title": "بَيْتٌ",
+    "subtitle": 64
+  },
+  {
+    "id": 329,
+    "title": "دَارٌ",
+    "subtitle": 48
+  },
+  {
+    "id": 330,
+    "title": "دُنْيَا",
+    "subtitle": 115
+  },
+  {
+    "id": 331,
+    "title": "سَبِيْلٌ",
+    "subtitle": 176
+  },
+  {
+    "id": 332,
+    "title": "صِرَاطٌ",
+    "subtitle": 46
+  },
+  {
+    "id": 333,
+    "title": "عَالَمٌ",
+    "subtitle": 73
+  },
+  {
+    "id": 334,
+    "title": "فِتْنَةٌ",
+    "subtitle": 34
+  },
+  {
+    "id": 335,
+    "title": "قَرْيَةٌ",
+    "subtitle": 57
+  },
+  {
+    "id": 336,
+    "title": "مَالٌ",
+    "subtitle": 86
+  },
+  {
+    "id": 337,
+    "title": "مَتَاعٌ",
+    "subtitle": 34
+  },
+  {
+    "id": 338,
+    "title": "مَسْجِدٌ",
+    "subtitle": 28
+  },
+  {
+    "id": 339,
+    "title": "أُمَّةٌ",
+    "subtitle": 64
+  },
+  {
+    "id": 340,
+    "title": "اِنْسَانٌ",
+    "subtitle": 248
+  },
+  {
+    "id": 341,
+    "title": "ذَكَرٌ",
+    "subtitle": 16
+  },
+  {
+    "id": 342,
+    "title": "أُنْثَى",
+    "subtitle": 30
+  },
+  {
+    "id": 343,
+    "title": "عَبْدٌ",
+    "subtitle": 126
+  },
+  {
+    "id": 344,
+    "title": "عَدُوٌّ",
+    "subtitle": 44
+  },
+  {
+    "id": 345,
+    "title": "كُفَّارٌ",
+    "subtitle": 21
+  },
+  {
+    "id": 346,
+    "title": "مُجْرِمٌ",
+    "subtitle": 52
+  },
+  {
+    "id": 347,
+    "title": "مَلَأٌ",
+    "subtitle": 22
+  },
+  {
+    "id": 348,
+    "title": "وَلِيٌّ",
+    "subtitle": 86
+  },
+  {
+    "id": 349,
+    "title": "مَكَانٌ",
+    "subtitle": 32
+  },
+  {
+    "id": 350,
+    "title": "أُوْلِى",
+    "subtitle": 0
+  },
+  {
+    "id": 351,
+    "title": "أَهْلٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 352,
+    "title": "آلٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 353,
+    "title": "أَلَا",
+    "subtitle": 0
+  },
+  {
+    "id": 354,
+    "title": "نِعْمَ",
+    "subtitle": 0
+  },
+  {
+    "id": 355,
+    "title": "بِئْسَ",
+    "subtitle": 0
+  },
+  {
+    "id": 356,
+    "title": "بِئْسَمَا",
+    "subtitle": 0
+  },
+  {
+    "id": 357,
+    "title": "عِنْدَ",
+    "subtitle": 0
+  },
+  {
+    "id": 358,
+    "title": "مِثْلٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 359,
+    "title": "مَثَلٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 360,
+    "title": "لَدَى",
+    "subtitle": 0
+  },
+  {
+    "id": 361,
+    "title": "بَلْ",
+    "subtitle": 0
+  },
+  {
+    "id": 362,
+    "title": "ثُمَّ",
+    "subtitle": 0
+  },
+  {
+    "id": 363,
+    "title": "قَبْلَ",
+    "subtitle": 0
+  },
+  {
+    "id": 364,
+    "title": "بَعْدَ",
+    "subtitle": 0
+  },
+  {
+    "id": 365,
+    "title": "حِيْنٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 366,
+    "title": "فَوْقَ",
+    "subtitle": 0
+  },
+  {
+    "id": 367,
+    "title": "تَحْتَ",
+    "subtitle": 0
+  },
+  {
+    "id": 368,
+    "title": "بَيْنَ   أَيْدِي",
+    "subtitle": 0
+  },
+  {
+    "id": 369,
+    "title": "خَلْفَ",
+    "subtitle": 0
+  },
+  {
+    "id": 370,
+    "title": "أَمَامَ",
+    "subtitle": 0
+  },
+  {
+    "id": 371,
+    "title": "وَرَاءَ",
+    "subtitle": 0
+  },
+  {
+    "id": 372,
+    "title": "يَمِيْنٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 373,
+    "title": "شِمَالٌ",
+    "subtitle": 0
+  },
+  {
+    "id": 374,
+    "title": "بَيْنَ",
+    "subtitle": 0
+  },
+  {
+    "id": 375,
+    "title": "حَوْلَ",
+    "subtitle": 0
+  },
+  {
+    "id": 376,
+    "title": "حَيْثُ",
+    "subtitle": 0
+  },
+  {
+    "id": 377,
+    "title": "أَيْنَمَا",
+    "subtitle": 0
+  },
+  {
+    "id": 378,
+    "title": "مَا",
+    "subtitle": 0
+  },
+  {
+    "id": 379,
+    "title": "مَنْ",
+    "subtitle": 0
+  },
+  {
+    "id": 380,
+    "title": "مَتَي",
+    "subtitle": 0
+  },
+  {
+    "id": 381,
+    "title": "أَيْنَ",
+    "subtitle": 0
+  },
+  {
+    "id": 382,
+    "title": "كَيْفَ",
+    "subtitle": 0
+  },
+  {
+    "id": 383,
+    "title": "كَمْ",
+    "subtitle": 0
+  },
+  {
+    "id": 384,
+    "title": "أَيُّ",
+    "subtitle": 0
+  },
+  {
+    "id": 385,
+    "title": "أَنَّي",
+    "subtitle": 0
+  },
+  {
+    "id": 386,
+    "title": "هَلْ",
+    "subtitle": 0
+  },
+  {
+    "id": 387,
+    "title": "مَاذَا",
+    "subtitle": 0
+  },
+  {
+    "id": 388,
+    "title": "لِمَاذَا",
+    "subtitle": 0
+  },
+  {
+    "id": 389,
+    "title": "إنَّمَا",
+    "subtitle": 0
+  }
+]
