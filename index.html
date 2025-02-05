@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="./global.css">
 
 	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
 	<!-- Themes related stuff... putting all this here to ensure there is no white-flash -->
 	<script>
@@ -282,10 +283,10 @@
 			<nav id="navbar"
 				class="bg-[#FFFFFF] border-b border-[#b1901f]/20 fixed w-full z-20 top-0 left-0 print:hidden block">
 				<div id="top-nav"
-					class="block false flex flex-row items-center justify-center max-w-screen-lg mx-auto px-4 py-2"
+					class="block false flex flex-row items-center justify-center max-w-screen-lg mx-auto px-4"
 					aria-label="Home">
 					<button
-						class="flex items-center p-3 text-lg font-medium w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
+						class="flex items-center p-2 text-md font-medium w-auto p-2 rounded-3xl border border-transparent hover:border-[#b1901f] hover:bg-[#b1901f]/5">
 						Құран сөздерін қайталау
 					</button>
 				</div>
@@ -296,11 +297,11 @@
 					<div v-if="question.id > 0" class="flex flex-col space-y-8 justify-center">
 						<button class="flex flex-col space-y-4 mx-auto items-center">
 							<span class="text-5xl md:text-7xl arabic-font-1 my-6">{{question.title}}</span>
-							<span v-if="question.subtitle == '0'" class="text-xs">(Құранда көп қайталанатын сөз)</span>
+							<span v-if="question.subtitle == '0'" class="text-xs">(Бұл сөз Құранда бірнеше рет кездеседі)</span>
 							<span v-else class="text-xs">(Бұл сөз Құранда {{question.subtitle}} рет кездеседі)</span>
 						</button>
 						<div id="options" class="pt-2">
-							<p class="mb-5 text-sm">Дұрыс жауабын таңдаңыз:</p>
+							<p class="mb-5 text-sm">Қазақша мағынасын таңдаңыз (егер жауаптар ұқсас болса, басқа сөзге өтіңіз):</p>
 							<div class="grid gap-4 md:gap-6 w-full md:grid-cols-2">
 								<label v-for="answer in question.answers"
 									class="text-sm rtl:text-right font-medium flex items-center">
@@ -343,9 +344,12 @@
 							</div>
 						</div>
 						<div id="quiz-stats" class="flex flex-row space-x-4 justify-center text-xs">
-							<span>Дұрыс: {{correctCount}}</span>
+							<span>Дұрыс жауап: {{correctCount}}</span>
 							<span>|</span>
-							<span>Қате: {{wrongCount}}</span>
+							<span>Қате жауап: {{wrongCount}}</span>
+						</div>
+						<div v-if="currentProgress > 0" class="flex flex-row space-x-4 justify-center text-xs">
+							<span>{{currentProgress}} сұраққа жауап бердіңіз, барлығы {{total}} сұрақ</span>
 						</div>
 					</div>
 					<div v-else class="flex justify-center">
@@ -389,108 +393,147 @@
 	restHeaders.append('Authorization', `Bearer ${token}`);
 	restHeaders.append('X-Client-Id', localStorage.getItem('client_id'))
 
+	let questions = []
+	let questionArray = []
+	let answerArray = []
+	let excludeQuestions = []
 	const question = ref({})
-	const excludeQuestions = ref([])
 	const chosenAnswer = ref(null)
 	const correctCount = ref(0)
 	const wrongCount = ref(0)
 	const currentAnswerCorrect = ref(false)
 	const answerPassed = ref(false)
 	const loading = ref(true)
-	const total = 10
+	const currentProgress = ref(0)
+	const total = ref(0)
 
 	// Your answer was correct 😀
 	// Sorry, the correct answer was "We will let you overpower them" 😟
 
 	// Functions
 	function next() {
-		const requestOptions = {
-			method: "GET",
-			headers: restHeaders,
-			redirect: "follow"
-		};
-		console.log(requestOptions)
-		loading.value = true;
-		fetch(`${baseUrl}/testing/next-question`, requestOptions)
-			.then((response) => response.json())
-			.then((result) => {
-				console.log(result)
-				question.value = result
-				chosenAnswer.value = null
-				excludeQuestions.value = [...excludeQuestions.value, result.id]
-				answerPassed.value = false
-				loading.value = false
-			})
-			.catch((error) => console.error(error));
+		if (currentProgress.value == total.value) {
+			alert('Керемет, сіз барлық сұраққа жауап бердіңіз')
+			confetti();
+			return;
+		}
+		chosenAnswer.value = null
+		answerPassed.value = false
+		const randomItem = questions[Math.floor(Math.random() * questions.length)]
+		if (excludeQuestions.includes(randomItem.id)) {
+			// console.log('question already answered: ', randomItem);
+			next();
+		}
+		// console.log('randomItem: ', randomItem);
+		question.value = randomItem;
+		loading.value = false
 	}
 
 	function choseAnswer(answer) {
-		console.log('choseAnswer', answer)
+		// console.log('choseAnswer', answer)
 		chosenAnswer.value = answer
 	}
 
 	function confirm() {
-		console.log('confirm')
+		// console.log('confirm: ', chosenAnswer)
 		if (!chosenAnswer.value) {
-			alert('Please chose an answer')
+			alert('Жауап тандаңыз!')
 			return
 		}
-		loading.value = true
-		const requestOptions = {
-			method: "POST",
-			headers: restHeaders,
-			body: JSON.stringify({
-				"questionId": question.value.id,
-				"answerId": chosenAnswer.value.id
-			}),
-			redirect: "follow"
-		};
-		console.log(requestOptions)
 
-		fetch(`${baseUrl}/testing/check-answer`, requestOptions)
-			.then((response) => response.json())
-			.then((result) => {
-				console.log(result)
-				answerPassed.value = true
-				if (result.result) {
-					correctCount.value += 1
-					currentAnswerCorrect.value = true
-				} else {
-					wrongCount.value += 1
-					currentAnswerCorrect.value = false
-				}
-				loading.value = false
-			})
-			.catch((error) => console.error(error));
+		answerPassed.value = true
+		currentProgress.value +=1
+		if (chosenAnswer.value.is_true) {
+			confetti();
+			correctCount.value += 1
+			currentAnswerCorrect.value = true
+		} else {
+			wrongCount.value += 1
+			currentAnswerCorrect.value = false
+		}
+
+		excludeQuestions = [...excludeQuestions, chosenAnswer.value.id]
+		// console.log('excludeQuestions: ', excludeQuestions);
 	}
 
 	function skip() {
-		// wrongCount.value += 1
 		next()
 	}
 
 	function reset() {
 		const question = ref({})
-		const excludeQuestions = ref([])
 		const chosenAnswer = ref(null)
 		const correctCount = ref(0)
 		const wrongCount = ref(0)
 	}
+
+	function loadFromJson() {
+		return fetch('./questions.json')
+		.then(response => response.json())
+		.then(data => {
+			// console.log('questions json: ', data);
+			questionArray = data
+			total.value = data.length
+		})
+		.catch(error => {
+			console.error('Error reading the questions JSON file:', error);
+		})
+		.then(() => fetch('./answers.json'))
+		.then(response => response.json())
+		.then(data => {
+			// console.log('answers json: ', data);
+			answerArray = data;
+		})
+		.catch(error => {
+			console.error('Error reading the answers JSON file:', error);
+		});
+
+	}
+
+	// Function to get 3 random incorrect answers
+	function getRandomIncorrectAnswers(correctId, allAnswers) {
+		return allAnswers
+			.filter(a => a.id !== correctId) // Exclude correct answer
+			.map(a => ({ id: a.id, title: a.title, is_true: false })) // Convert structure
+			.sort(() => Math.random() - 0.5) // Shuffle
+			.slice(0, 3); // Take 3 random incorrect answers
+	};
+
+	function buildData() {
+		// Mapping questions with their correct and incorrect answers
+		const structuredData = questionArray.map(q => {
+			const correctAnswer = answerArray.find(a => a.id === q.id);
+			const randomAnswers = [
+					{ id: correctAnswer.id, title: correctAnswer.title, is_true: true }, // Correct answer
+					...getRandomIncorrectAnswers(q.id, answerArray) // 3 Incorrect answers
+				].sort(() => Math.random() - 0.5)
+			return {
+				...q,
+				answers: randomAnswers.sort(() => Math.random() - 0.5)
+			};
+		});
+
+		questions = structuredData;
+	}
 	// end of functions
 
-	next();
+	// next();
+	loadFromJson()
+	.then(() => buildData())
+	.then(() => next());
 
 	createApp({
 		setup() {
 			return {
 				question,
-				excludeQuestions,
 				chosenAnswer,
 				correctCount,
 				wrongCount,
 				currentAnswerCorrect,
 				answerPassed,
 				loading,
+				currentProgress,
+				total,
 				choseAnswer,
 				confirm,
 				next,

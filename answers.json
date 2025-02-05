@@ -1,0 +1,2336 @@
+[
+  {
+    "id": 1,
+    "title": "Көмектесті, жәрдем берді",
+    "is_right": "TRUE",
+    "question_id": 1
+  },
+  {
+    "id": 2,
+    "title": "Жеткізді, жетті",
+    "is_right": "TRUE",
+    "question_id": 2
+  },
+  {
+    "id": 3,
+    "title": "Тәрік етті, тастады",
+    "is_right": "TRUE",
+    "question_id": 3
+  },
+  {
+    "id": 4,
+    "title": "Бірге жинады, топтастырды",
+    "is_right": "TRUE",
+    "question_id": 4
+  },
+  {
+    "id": 5,
+    "title": "Үкім етті, төрелік етті",
+    "is_right": "TRUE",
+    "question_id": 5
+  },
+  {
+    "id": 6,
+    "title": "Шықты",
+    "is_right": "TRUE",
+    "question_id": 6
+  },
+  {
+    "id": 7,
+    "title": "Мәңгі қалды, мәңгі болды",
+    "is_right": "TRUE",
+    "question_id": 7
+  },
+  {
+    "id": 8,
+    "title": "Жаратты, жасады",
+    "is_right": "TRUE",
+    "question_id": 8
+  },
+  {
+    "id": 9,
+    "title": "Кірді, енді",
+    "is_right": "TRUE",
+    "question_id": 9
+  },
+  {
+    "id": 10,
+    "title": "Зікір етті, еске алды",
+    "is_right": "TRUE",
+    "question_id": 10
+  },
+  {
+    "id": 11,
+    "title": "Ризық берді",
+    "is_right": "TRUE",
+    "question_id": 11
+  },
+  {
+    "id": 12,
+    "title": "Сәжде етті",
+    "is_right": "TRUE",
+    "question_id": 12
+  },
+  {
+    "id": 13,
+    "title": "Байқады, сезді",
+    "is_right": "TRUE",
+    "question_id": 13
+  },
+  {
+    "id": 14,
+    "title": "Шүкір етті, алғыс айтты",
+    "is_right": "TRUE",
+    "question_id": 14
+  },
+  {
+    "id": 15,
+    "title": "Шындықты айтты",
+    "is_right": "TRUE",
+    "question_id": 15
+  },
+  {
+    "id": 16,
+    "title": "Ғибадат етті, құлшылық етті",
+    "is_right": "TRUE",
+    "question_id": 16
+  },
+  {
+    "id": 17,
+    "title": "Күнә жасады, бас тартты",
+    "is_right": "TRUE",
+    "question_id": 17
+  },
+  {
+    "id": 18,
+    "title": "Өлтірді",
+    "is_right": "TRUE",
+    "question_id": 18
+  },
+  {
+    "id": 19,
+    "title": "Отырды, Қалып қойды",
+    "is_right": "TRUE",
+    "question_id": 19
+  },
+  {
+    "id": 20,
+    "title": "Жазды, Бұйырды",
+    "is_right": "TRUE",
+    "question_id": 20
+  },
+  {
+    "id": 21,
+    "title": "Күпір етті, иман етпеді",
+    "is_right": "TRUE",
+    "question_id": 21
+  },
+  {
+    "id": 22,
+    "title": "Қастық ұйымдастырды",
+    "is_right": "TRUE",
+    "question_id": 22
+  },
+  {
+    "id": 23,
+    "title": "Қарады, көрді",
+    "is_right": "TRUE",
+    "question_id": 23
+  },
+  {
+    "id": 24,
+    "title": "Ашты Бағындырды",
+    "is_right": "TRUE",
+    "question_id": 24
+  },
+  {
+    "id": 25,
+    "title": "Қайта тірілтті",
+    "is_right": "TRUE",
+    "question_id": 25
+  },
+  {
+    "id": 26,
+    "title": "Жасады, орнатты",
+    "is_right": "TRUE",
+    "question_id": 26
+  },
+  {
+    "id": 27,
+    "title": "Жинады, жинап алды",
+    "is_right": "TRUE",
+    "question_id": 27
+  },
+  {
+    "id": 28,
+    "title": "Кетті, барды",
+    "is_right": "TRUE",
+    "question_id": 28
+  },
+  {
+    "id": 29,
+    "title": "Көтерді, биіктетті",
+    "is_right": "TRUE",
+    "question_id": 29
+  },
+  {
+    "id": 30,
+    "title": "Сиқырлады",
+    "is_right": "TRUE",
+    "question_id": 30
+  },
+  {
+    "id": 31,
+    "title": "Жақсылық жасады",
+    "is_right": "TRUE",
+    "question_id": 31
+  },
+  {
+    "id": 32,
+    "title": "Лағынет айтты, қарғады",
+    "is_right": "TRUE",
+    "question_id": 32
+  },
+  {
+    "id": 33,
+    "title": "Пайдалы болды",
+    "is_right": "TRUE",
+    "question_id": 33
+  },
+  {
+    "id": 34,
+    "title": "Істеді, жасады",
+    "is_right": "TRUE",
+    "question_id": 34
+  },
+  {
+    "id": 35,
+    "title": "Ұрды, соқты",
+    "is_right": "TRUE",
+    "question_id": 35
+  },
+  {
+    "id": 36,
+    "title": "Көтерді, алып жүрді",
+    "is_right": "TRUE",
+    "question_id": 36
+  },
+  {
+    "id": 37,
+    "title": "Сабыр етті",
+    "is_right": "TRUE",
+    "question_id": 37
+  },
+  {
+    "id": 38,
+    "title": "Зұлымдық жасады",
+    "is_right": "TRUE",
+    "question_id": 38
+  },
+  {
+    "id": 39,
+    "title": "Таныды, білді",
+    "is_right": "TRUE",
+    "question_id": 39
+  },
+  {
+    "id": 40,
+    "title": "Ақылға салды, ойланды",
+    "is_right": "TRUE",
+    "question_id": 40
+  },
+  {
+    "id": 41,
+    "title": "Кешірді",
+    "is_right": "TRUE",
+    "question_id": 41
+  },
+  {
+    "id": 42,
+    "title": "Құдыреті жетті",
+    "is_right": "TRUE",
+    "question_id": 42
+  },
+  {
+    "id": 43,
+    "title": "Өтірік айтты",
+    "is_right": "TRUE",
+    "question_id": 43
+  },
+  {
+    "id": 44,
+    "title": "Кәсіп етті, істеді",
+    "is_right": "TRUE",
+    "question_id": 44
+  },
+  {
+    "id": 45,
+    "title": "Иелік етті, билік етті",
+    "is_right": "TRUE",
+    "question_id": 45
+  },
+  {
+    "id": 46,
+    "title": "Естіді",
+    "is_right": "TRUE",
+    "question_id": 46
+  },
+  {
+    "id": 47,
+    "title": "Қайғырды, қамықты",
+    "is_right": "TRUE",
+    "question_id": 47
+  },
+  {
+    "id": 48,
+    "title": "Ойлады, болжады (хәсиба)",
+    "is_right": "TRUE",
+    "question_id": 48
+  },
+  {
+    "id": 49,
+    "title": "Сақтады, қорғады",
+    "is_right": "TRUE",
+    "question_id": 49
+  },
+  {
+    "id": 50,
+    "title": "Зиянға ұшырады",
+    "is_right": "TRUE",
+    "question_id": 50
+  },
+  {
+    "id": 51,
+    "title": "Мейіріміне алды",
+    "is_right": "TRUE",
+    "question_id": 51
+  },
+  {
+    "id": 52,
+    "title": "Куәгер болды, қатысты",
+    "is_right": "TRUE",
+    "question_id": 52
+  },
+  {
+    "id": 53,
+    "title": "Білді, хабардар болды",
+    "is_right": "TRUE",
+    "question_id": 53
+  },
+  {
+    "id": 54,
+    "title": "Амал жасады, еңбектенді",
+    "is_right": "TRUE",
+    "question_id": 54
+  },
+  {
+    "id": 55,
+    "title": "Жек көрді, қаламады",
+    "is_right": "TRUE",
+    "question_id": 55
+  },
+  {
+    "id": 56,
+    "title": "Өмір сүрді, сәлем берді",
+    "is_right": "TRUE",
+    "question_id": 56
+  },
+  {
+    "id": 57,
+    "title": "Кері кетті, қайтарды",
+    "is_right": "TRUE",
+    "question_id": 57
+  },
+  {
+    "id": 58,
+    "title": "Кедергі болды, бөгет жасады",
+    "is_right": "TRUE",
+    "question_id": 58
+  },
+  {
+    "id": 59,
+    "title": "Зиян келтірді",
+    "is_right": "TRUE",
+    "question_id": 59
+  },
+  {
+    "id": 60,
+    "title": "Адасты, жоқ болды",
+    "is_right": "TRUE",
+    "question_id": 60
+  },
+  {
+    "id": 61,
+    "title": "Ойлады, сенімді болды",
+    "is_right": "TRUE",
+    "question_id": 61
+  },
+  {
+    "id": 62,
+    "title": "Санады, есептеді",
+    "is_right": "TRUE",
+    "question_id": 62
+  },
+  {
+    "id": 63,
+    "title": "Алдады, еліктірді",
+    "is_right": "TRUE",
+    "question_id": 63
+  },
+  {
+    "id": 64,
+    "title": "Көбейтті, созды",
+    "is_right": "TRUE",
+    "question_id": 64
+  },
+  {
+    "id": 65,
+    "title": "Тиді, тиіп кетті",
+    "is_right": "TRUE",
+    "question_id": 65
+  },
+  {
+    "id": 66,
+    "title": "Жақсы көрді, ұнатты (уәддә)",
+    "is_right": "TRUE",
+    "question_id": 66
+  },
+  {
+    "id": 67,
+    "title": "Еркіне жіберді",
+    "is_right": "TRUE",
+    "question_id": 67
+  },
+  {
+    "id": 68,
+    "title": "Қойды, орнына қойды",
+    "is_right": "TRUE",
+    "question_id": 68
+  },
+  {
+    "id": 69,
+    "title": "Болды, түсті, құлады",
+    "is_right": "TRUE",
+    "question_id": 69
+  },
+  {
+    "id": 70,
+    "title": "Берді, нәсіп етті",
+    "is_right": "TRUE",
+    "question_id": 70
+  },
+  {
+    "id": 71,
+    "title": "Тапты",
+    "is_right": "TRUE",
+    "question_id": 71
+  },
+  {
+    "id": 72,
+    "title": "Мұраны алды",
+    "is_right": "TRUE",
+    "question_id": 72
+  },
+  {
+    "id": 73,
+    "title": "Көтерді, арқалады",
+    "is_right": "TRUE",
+    "question_id": 73
+  },
+  {
+    "id": 74,
+    "title": "Сипаттады, бейнеледі",
+    "is_right": "TRUE",
+    "question_id": 74
+  },
+  {
+    "id": 75,
+    "title": "Уәде берді",
+    "is_right": "TRUE",
+    "question_id": 75
+  },
+  {
+    "id": 76,
+    "title": 76,
+    "is_right": "TRUE",
+    "question_id": 76
+  },
+  {
+    "id": 77,
+    "title": "Қамтыды",
+    "is_right": "TRUE",
+    "question_id": 77
+  },
+  {
+    "id": 78,
+    "title": "Айтты, сөйледі",
+    "is_right": "TRUE",
+    "question_id": 78
+  },
+  {
+    "id": 79,
+    "title": "Тәубе етті, өкінді",
+    "is_right": "TRUE",
+    "question_id": 79
+  },
+  {
+    "id": 80,
+    "title": "Дәмін көрді",
+    "is_right": "TRUE",
+    "question_id": 80
+  },
+  {
+    "id": 81,
+    "title": "Табысқа жетті",
+    "is_right": "TRUE",
+    "question_id": 81
+  },
+  {
+    "id": 82,
+    "title": "Тұрды",
+    "is_right": "TRUE",
+    "question_id": 82
+  },
+  {
+    "id": 83,
+    "title": "Болды",
+    "is_right": "TRUE",
+    "question_id": 83
+  },
+  {
+    "id": 84,
+    "title": "Өлді, дүниеден өтті",
+    "is_right": "TRUE",
+    "question_id": 84
+  },
+  {
+    "id": 85,
+    "title": "Қорықты, шошыды",
+    "is_right": "TRUE",
+    "question_id": 85
+  },
+  {
+    "id": 86,
+    "title": "Жақын болды",
+    "is_right": "TRUE",
+    "question_id": 86
+  },
+  {
+    "id": 87,
+    "title": "Айла құрастырды",
+    "is_right": "TRUE",
+    "question_id": 87
+  },
+  {
+    "id": 88,
+    "title": "Арттырды, көбейтті",
+    "is_right": "TRUE",
+    "question_id": 88
+  },
+  {
+    "id": 89,
+    "title": "Оқыды, еріп отырды",
+    "is_right": "TRUE",
+    "question_id": 89
+  },
+  {
+    "id": 90,
+    "title": "Шақырды, дұға етті",
+    "is_right": "TRUE",
+    "question_id": 90
+  },
+  {
+    "id": 91,
+    "title": "Кешірді, өшірді",
+    "is_right": "TRUE",
+    "question_id": 91
+  },
+  {
+    "id": 92,
+    "title": "Қалады",
+    "is_right": "TRUE",
+    "question_id": 92
+  },
+  {
+    "id": 93,
+    "title": "Ақты, төгілді",
+    "is_right": "TRUE",
+    "question_id": 93
+  },
+  {
+    "id": 94,
+    "title": "Жазасын берді, ақысын берді",
+    "is_right": "TRUE",
+    "question_id": 94
+  },
+  {
+    "id": 95,
+    "title": "Шешім шығарды",
+    "is_right": "TRUE",
+    "question_id": 95
+  },
+  {
+    "id": 96,
+    "title": "Жеткілік болды",
+    "is_right": "TRUE",
+    "question_id": 96
+  },
+  {
+    "id": 97,
+    "title": "Жолға салды, жол көрсетті",
+    "is_right": "TRUE",
+    "question_id": 97
+  },
+  {
+    "id": 98,
+    "title": "Қорықты, үрейленді",
+    "is_right": "TRUE",
+    "question_id": 98
+  },
+  {
+    "id": 99,
+    "title": "Қуанды",
+    "is_right": "TRUE",
+    "question_id": 99
+  },
+  {
+    "id": 100,
+    "title": "Сұрады",
+    "is_right": "TRUE",
+    "question_id": 100
+  },
+  {
+    "id": 101,
+    "title": "Оқыды, дауыстап оқу",
+    "is_right": "TRUE",
+    "question_id": 101
+  },
+  {
+    "id": 102,
+    "title": "Алды, қабылдады",
+    "is_right": "TRUE",
+    "question_id": 102
+  },
+  {
+    "id": 103,
+    "title": "Жеді, жеп қойды",
+    "is_right": "TRUE",
+    "question_id": 103
+  },
+  {
+    "id": 104,
+    "title": "Әмір етті",
+    "is_right": "TRUE",
+    "question_id": 104
+  },
+  {
+    "id": 105,
+    "title": "Амандықта болды",
+    "is_right": "TRUE",
+    "question_id": 105
+  },
+  {
+    "id": 106,
+    "title": "Бас тартты, қарсы болды",
+    "is_right": "TRUE",
+    "question_id": 106
+  },
+  {
+    "id": 107,
+    "title": "Көрді, байқады",
+    "is_right": "TRUE",
+    "question_id": 107
+  },
+  {
+    "id": 108,
+    "title": "Келді, істеді",
+    "is_right": "TRUE",
+    "question_id": 108
+  },
+  {
+    "id": 109,
+    "title": "Қалады",
+    "is_right": "TRUE",
+    "question_id": 109
+  },
+  {
+    "id": 110,
+    "title": "Нендей жаман?!",
+    "is_right": "TRUE",
+    "question_id": 110
+  },
+  {
+    "id": 111,
+    "title": "Келді (Джәә)",
+    "is_right": "TRUE",
+    "question_id": 111
+  },
+  {
+    "id": 112,
+    "title": "Өзгертті, ауыстырды",
+    "is_right": "TRUE",
+    "question_id": 112
+  },
+  {
+    "id": 113,
+    "title": "Сүйеншіледі",
+    "is_right": "TRUE",
+    "question_id": 113
+  },
+  {
+    "id": 114,
+    "title": "Түсіндірді, ұғындырды",
+    "is_right": "TRUE",
+    "question_id": 114
+  },
+  {
+    "id": 115,
+    "title": "Әсемдеді, безендірді",
+    "is_right": "TRUE",
+    "question_id": 115
+  },
+  {
+    "id": 116,
+    "title": "Мақтау айтты, тасбих айтты",
+    "is_right": "TRUE",
+    "question_id": 116
+  },
+  {
+    "id": 117,
+    "title": "Бағындырды, мәжбүрледі",
+    "is_right": "TRUE",
+    "question_id": 117
+  },
+  {
+    "id": 118,
+    "title": "Растады, құптады",
+    "is_right": "TRUE",
+    "question_id": 118
+  },
+  {
+    "id": 119,
+    "title": "Азаптады",
+    "is_right": "TRUE",
+    "question_id": 119
+  },
+  {
+    "id": 120,
+    "title": "Үйретті",
+    "is_right": "TRUE",
+    "question_id": 120
+  },
+  {
+    "id": 121,
+    "title": "Істеді, жолдады",
+    "is_right": "TRUE",
+    "question_id": 121
+  },
+  {
+    "id": 122,
+    "title": "Өтірік айтты",
+    "is_right": "TRUE",
+    "question_id": 122
+  },
+  {
+    "id": 123,
+    "title": "Баяндады, айтып берді",
+    "is_right": "TRUE",
+    "question_id": 123
+  },
+  {
+    "id": 124,
+    "title": "Түсірді",
+    "is_right": "TRUE",
+    "question_id": 124
+  },
+  {
+    "id": 125,
+    "title": "Құтқарды",
+    "is_right": "TRUE",
+    "question_id": 125
+  },
+  {
+    "id": 126,
+    "title": "Теріс бұрылды, бағыт алды",
+    "is_right": "TRUE",
+    "question_id": 126
+  },
+  {
+    "id": 127,
+    "title": "Күресті, бар күшін салды",
+    "is_right": "TRUE",
+    "question_id": 127
+  },
+  {
+    "id": 128,
+    "title": "Соғысты, күресті",
+    "is_right": "TRUE",
+    "question_id": 128
+  },
+  {
+    "id": 129,
+    "title": "Шақырды, айқайлады",
+    "is_right": "TRUE",
+    "question_id": 129
+  },
+  {
+    "id": 130,
+    "title": "Мунафиқ болды",
+    "is_right": "TRUE",
+    "question_id": 130
+  },
+  {
+    "id": 131,
+    "title": "Көшті, қоныс аударды",
+    "is_right": "TRUE",
+    "question_id": 131
+  },
+  {
+    "id": 132,
+    "title": "Көрді, Түсінді",
+    "is_right": "TRUE",
+    "question_id": 132
+  },
+  {
+    "id": 133,
+    "title": "Жақсы орындады",
+    "is_right": "TRUE",
+    "question_id": 133
+  },
+  {
+    "id": 134,
+    "title": "Шығарды",
+    "is_right": "TRUE",
+    "question_id": 134
+  },
+  {
+    "id": 135,
+    "title": "Кіргізді, енгізді",
+    "is_right": "TRUE",
+    "question_id": 135
+  },
+  {
+    "id": 136,
+    "title": "Қайтарды",
+    "is_right": "TRUE",
+    "question_id": 136
+  },
+  {
+    "id": 137,
+    "title": "Жіберді, түсірді",
+    "is_right": "TRUE",
+    "question_id": 137
+  },
+  {
+    "id": 138,
+    "title": "Ысырап етті, шектен шықты",
+    "is_right": "TRUE",
+    "question_id": 138
+  },
+  {
+    "id": 139,
+    "title": "Бой ұсынды, Исламға келді",
+    "is_right": "TRUE",
+    "question_id": 139
+  },
+  {
+    "id": 140,
+    "title": "Ширк жасады, серік қосты",
+    "is_right": "TRUE",
+    "question_id": 140
+  },
+  {
+    "id": 141,
+    "title": "Таң атты, Болып қалды",
+    "is_right": "TRUE",
+    "question_id": 141
+  },
+  {
+    "id": 142,
+    "title": "Ізгілік жасады, жақсартты",
+    "is_right": "TRUE",
+    "question_id": 142
+  },
+  {
+    "id": 143,
+    "title": "Теріс бұрылды, бас тартты",
+    "is_right": "TRUE",
+    "question_id": 143
+  },
+  {
+    "id": 144,
+    "title": "Суға батырды",
+    "is_right": "TRUE",
+    "question_id": 144
+  },
+  {
+    "id": 145,
+    "title": "Бүлік жасады, бүлдірді",
+    "is_right": "TRUE",
+    "question_id": 145
+  },
+  {
+    "id": 146,
+    "title": "Құтылды, жеңіске жетті",
+    "is_right": "TRUE",
+    "question_id": 146
+  },
+  {
+    "id": 147,
+    "title": "Өсірді, шығарды",
+    "is_right": "TRUE",
+    "question_id": 147
+  },
+  {
+    "id": 148,
+    "title": "Ескертті",
+    "is_right": "TRUE",
+    "question_id": 148
+  },
+  {
+    "id": 149,
+    "title": "Түсірді",
+    "is_right": "TRUE",
+    "question_id": 149
+  },
+  {
+    "id": 150,
+    "title": "Жаратты, құрастырды",
+    "is_right": "TRUE",
+    "question_id": 150
+  },
+  {
+    "id": 151,
+    "title": "Нығметке бөледі",
+    "is_right": "TRUE",
+    "question_id": 151
+  },
+  {
+    "id": 152,
+    "title": "Жұмсады",
+    "is_right": "TRUE",
+    "question_id": 152
+  },
+  {
+    "id": 153,
+    "title": "Мойындамады, танымады",
+    "is_right": "TRUE",
+    "question_id": 153
+  },
+  {
+    "id": 154,
+    "title": "Жоқ қылды",
+    "is_right": "TRUE",
+    "question_id": 154
+  },
+  {
+    "id": 155,
+    "title": "Аяқтады, бітірді",
+    "is_right": "TRUE",
+    "question_id": 155
+  },
+  {
+    "id": 156,
+    "title": "Жақсы көрді",
+    "is_right": "TRUE",
+    "question_id": 156
+  },
+  {
+    "id": 157,
+    "title": "Халал етті",
+    "is_right": "TRUE",
+    "question_id": 157
+  },
+  {
+    "id": 158,
+    "title": "Құпия етті, жасырды",
+    "is_right": "TRUE",
+    "question_id": 158
+  },
+  {
+    "id": 159,
+    "title": "Адастырды",
+    "is_right": "TRUE",
+    "question_id": 159
+  },
+  {
+    "id": 160,
+    "title": "Дайындады, әзірледі",
+    "is_right": "TRUE",
+    "question_id": 160
+  },
+  {
+    "id": 161,
+    "title": "Дәмін татқызды",
+    "is_right": "TRUE",
+    "question_id": 161
+  },
+  {
+    "id": 162,
+    "title": "Қалады, тіледі",
+    "is_right": "TRUE",
+    "question_id": 162
+  },
+  {
+    "id": 163,
+    "title": "Душар болды, ұшырады",
+    "is_right": "TRUE",
+    "question_id": 163
+  },
+  {
+    "id": 164,
+    "title": "Бой ұсынды, тыңдады",
+    "is_right": "TRUE",
+    "question_id": 164
+  },
+  {
+    "id": 165,
+    "title": "Тұрғызды, түзетті",
+    "is_right": "TRUE",
+    "question_id": 165
+  },
+  {
+    "id": 166,
+    "title": "Өлтірді, жан алды",
+    "is_right": "TRUE",
+    "question_id": 166
+  },
+  {
+    "id": 167,
+    "title": "Тірілтті, жан берді",
+    "is_right": "TRUE",
+    "question_id": 167
+  },
+  {
+    "id": 168,
+    "title": "Жасырды",
+    "is_right": "TRUE",
+    "question_id": 168
+  },
+  {
+    "id": 169,
+    "title": "Көрсетті",
+    "is_right": "TRUE",
+    "question_id": 169
+  },
+  {
+    "id": 170,
+    "title": "Пайда берді, Бай қылды",
+    "is_right": "TRUE",
+    "question_id": 170
+  },
+  {
+    "id": 171,
+    "title": "Лақтырды, тастады",
+    "is_right": "TRUE",
+    "question_id": 171
+  },
+  {
+    "id": 172,
+    "title": "Құтқарды",
+    "is_right": "TRUE",
+    "question_id": 172
+  },
+  {
+    "id": 173,
+    "title": "Уахи етті",
+    "is_right": "TRUE",
+    "question_id": 173
+  },
+  {
+    "id": 174,
+    "title": "Уәдеде тұрды, орындады",
+    "is_right": "TRUE",
+    "question_id": 174
+  },
+  {
+    "id": 175,
+    "title": "Иман етті, сенді",
+    "is_right": "TRUE",
+    "question_id": 175
+  },
+  {
+    "id": 176,
+    "title": "Берді",
+    "is_right": "TRUE",
+    "question_id": 176
+  },
+  {
+    "id": 177,
+    "title": "Азап көрсетті, қинады",
+    "is_right": "TRUE",
+    "question_id": 177
+  },
+  {
+    "id": 178,
+    "title": "Терең ой жүгіртті",
+    "is_right": "TRUE",
+    "question_id": 178
+  },
+  {
+    "id": 179,
+    "title": "Еске түсірді, Есіне алды",
+    "is_right": "TRUE",
+    "question_id": 179
+  },
+  {
+    "id": 180,
+    "title": "Тәуекел етті",
+    "is_right": "TRUE",
+    "question_id": 180
+  },
+  {
+    "id": 181,
+    "title": "Анық болды, айқындалды",
+    "is_right": "TRUE",
+    "question_id": 181
+  },
+  {
+    "id": 182,
+    "title": "Күтті, Тосып жүрді",
+    "is_right": "TRUE",
+    "question_id": 182
+  },
+  {
+    "id": 183,
+    "title": "Теріс бұрылды, Сырт айналды",
+    "is_right": "TRUE",
+    "question_id": 183
+  },
+  {
+    "id": 184,
+    "title": "Жан алды, қаза тапты",
+    "is_right": "TRUE",
+    "question_id": 184
+  },
+  {
+    "id": 185,
+    "title": "Ұлық болды",
+    "is_right": "TRUE",
+    "question_id": 185
+  },
+  {
+    "id": 186,
+    "title": "Бір-бірінен сұрады",
+    "is_right": "TRUE",
+    "question_id": 186
+  },
+  {
+    "id": 187,
+    "title": "Таласқа түсті, келіспеді",
+    "is_right": "TRUE",
+    "question_id": 187
+  },
+  {
+    "id": 188,
+    "title": "Соңынан ерді, Артынан жүрді",
+    "is_right": "TRUE",
+    "question_id": 188
+  },
+  {
+    "id": 189,
+    "title": "Алды",
+    "is_right": "TRUE",
+    "question_id": 189
+  },
+  {
+    "id": 190,
+    "title": "Тақуалық етті, сақтанды",
+    "is_right": "TRUE",
+    "question_id": 190
+  },
+  {
+    "id": 191,
+    "title": "Ойдан шығарды",
+    "is_right": "TRUE",
+    "question_id": 191
+  },
+  {
+    "id": 192,
+    "title": "Тура жол тапты",
+    "is_right": "TRUE",
+    "question_id": 192
+  },
+  {
+    "id": 193,
+    "title": "Қалады, тіледі",
+    "is_right": "TRUE",
+    "question_id": 193
+  },
+  {
+    "id": 194,
+    "title": "Қайта оралды, Төңкерілді",
+    "is_right": "TRUE",
+    "question_id": 194
+  },
+  {
+    "id": 195,
+    "title": "Бітті, аяқтады",
+    "is_right": "TRUE",
+    "question_id": 195
+  },
+  {
+    "id": 196,
+    "title": "Қарайып кетті",
+    "is_right": "TRUE",
+    "question_id": 196
+  },
+  {
+    "id": 197,
+    "title": "Ағарып кетті",
+    "is_right": "TRUE",
+    "question_id": 197
+  },
+  {
+    "id": 198,
+    "title": "Асықтырды",
+    "is_right": "TRUE",
+    "question_id": 198
+  },
+  {
+    "id": 199,
+    "title": "Кешірім сұрады",
+    "is_right": "TRUE",
+    "question_id": 199
+  },
+  {
+    "id": 200,
+    "title": "Тәкаппар болды",
+    "is_right": "TRUE",
+    "question_id": 200
+  },
+  {
+    "id": 201,
+    "title": "Мазақ қылды",
+    "is_right": "TRUE",
+    "question_id": 201
+  },
+  {
+    "id": 202,
+    "title": "Жауап берді, Қабыл етті",
+    "is_right": "TRUE",
+    "question_id": 202
+  },
+  {
+    "id": 203,
+    "title": "Қабілетті жетті, Шамасы келді",
+    "is_right": "TRUE",
+    "question_id": 203
+  },
+  {
+    "id": 204,
+    "title": "Тұрғызды, Әділ, тура",
+    "is_right": "TRUE",
+    "question_id": 204
+  },
+  {
+    "id": 205,
+    "title": "Мысалын көрсетті",
+    "is_right": "TRUE",
+    "question_id": 205
+  },
+  {
+    "id": 206,
+    "title": "Мысал келтірді (Дорабә ли)",
+    "is_right": "TRUE",
+    "question_id": 206
+  },
+  {
+    "id": 207,
+    "title": "Мысал келтірді",
+    "is_right": "TRUE",
+    "question_id": 207
+  },
+  {
+    "id": 208,
+    "title": "Кешірді",
+    "is_right": "TRUE",
+    "question_id": 208
+  },
+  {
+    "id": 209,
+    "title": "Араларына қазы болды",
+    "is_right": "TRUE",
+    "question_id": 209
+  },
+  {
+    "id": 210,
+    "title": "Өлтіріп тастады",
+    "is_right": "TRUE",
+    "question_id": 210
+  },
+  {
+    "id": 211,
+    "title": "Кетірді, жұлып тастады",
+    "is_right": "TRUE",
+    "question_id": 211
+  },
+  {
+    "id": 212,
+    "title": "Бір бағытқа бұрылды, ағыт алды",
+    "is_right": "TRUE",
+    "question_id": 212
+  },
+  {
+    "id": 213,
+    "title": "Кері бұрылды, теріс қарады",
+    "is_right": "TRUE",
+    "question_id": 213
+  },
+  {
+    "id": 214,
+    "title": "Алып келді",
+    "is_right": "TRUE",
+    "question_id": 214
+  },
+  {
+    "id": 215,
+    "title": "Қастандық жасады",
+    "is_right": "TRUE",
+    "question_id": 215
+  },
+  {
+    "id": 216,
+    "title": "Тәубе етті",
+    "is_right": "TRUE",
+    "question_id": 216
+  },
+  {
+    "id": 217,
+    "title": "Тәубені қабыл алды",
+    "is_right": "TRUE",
+    "question_id": 217
+  },
+  {
+    "id": 218,
+    "title": "Алып келді (Джәә би)",
+    "is_right": "TRUE",
+    "question_id": 218
+  },
+  {
+    "id": 219,
+    "title": "Алып кетті, апарды",
+    "is_right": "TRUE",
+    "question_id": 219
+  },
+  {
+    "id": 220,
+    "title": "Разы болды",
+    "is_right": "TRUE",
+    "question_id": 220
+  },
+  {
+    "id": 221,
+    "title": "Ескертуші",
+    "is_right": "TRUE",
+    "question_id": 221
+  },
+  {
+    "id": 222,
+    "title": "Көмекке келуші",
+    "is_right": "TRUE",
+    "question_id": 222
+  },
+  {
+    "id": 223,
+    "title": "Жұмсақ, мейірімді",
+    "is_right": "TRUE",
+    "question_id": 223
+  },
+  {
+    "id": 224,
+    "title": "Алыс",
+    "is_right": "TRUE",
+    "question_id": 224
+  },
+  {
+    "id": 225,
+    "title": "Сенімді",
+    "is_right": "TRUE",
+    "question_id": 225
+  },
+  {
+    "id": 226,
+    "title": "Басқа, өзге",
+    "is_right": "TRUE",
+    "question_id": 226
+  },
+  {
+    "id": 227,
+    "title": "Соңғы, ақырғы",
+    "is_right": "TRUE",
+    "question_id": 227
+  },
+  {
+    "id": 228,
+    "title": "Әуелден, басы",
+    "is_right": "TRUE",
+    "question_id": 228
+  },
+  {
+    "id": 229,
+    "title": "Қайнаған су",
+    "is_right": "TRUE",
+    "question_id": 229
+  },
+  {
+    "id": 230,
+    "title": "Қатты",
+    "is_right": "TRUE",
+    "question_id": 230
+  },
+  {
+    "id": 231,
+    "title": "Жоғары, биік",
+    "is_right": "TRUE",
+    "question_id": 231
+  },
+  {
+    "id": 232,
+    "title": "Жақын",
+    "is_right": "TRUE",
+    "question_id": 232
+  },
+  {
+    "id": 233,
+    "title": "Үлкен",
+    "is_right": "TRUE",
+    "question_id": 233
+  },
+  {
+    "id": 234,
+    "title": "Көп",
+    "is_right": "TRUE",
+    "question_id": 234
+  },
+  {
+    "id": 235,
+    "title": "Қаттырақ, Өте күшті",
+    "is_right": "TRUE",
+    "question_id": 235
+  },
+  {
+    "id": 236,
+    "title": "Жоғарырақ, Ең жоғары",
+    "is_right": "TRUE",
+    "question_id": 236
+  },
+  {
+    "id": 237,
+    "title": "Жақсырақ білуші, Ең жақсы білуші",
+    "is_right": "TRUE",
+    "question_id": 237
+  },
+  {
+    "id": 238,
+    "title": "Жақынырақ, Ең жақын",
+    "is_right": "TRUE",
+    "question_id": 238
+  },
+  {
+    "id": 239,
+    "title": "Үлкендеу, Өте үлкен",
+    "is_right": "TRUE",
+    "question_id": 239
+  },
+  {
+    "id": 240,
+    "title": "Көбірек, Өте көп",
+    "is_right": "TRUE",
+    "question_id": 240
+  },
+  {
+    "id": 241,
+    "title": "Жақсы, Ең жақсы",
+    "is_right": "TRUE",
+    "question_id": 241
+  },
+  {
+    "id": 242,
+    "title": "Лайықтырақ, Ең лайықты",
+    "is_right": "TRUE",
+    "question_id": 242
+  },
+  {
+    "id": 243,
+    "title": "Төменгі, Ең төменгі",
+    "is_right": "TRUE",
+    "question_id": 243
+  },
+  {
+    "id": 244,
+    "title": "Залымдырақ, Ең зұлым",
+    "is_right": "TRUE",
+    "question_id": 244
+  },
+  {
+    "id": 245,
+    "title": "Ең тура жолда",
+    "is_right": "TRUE",
+    "question_id": 245
+  },
+  {
+    "id": 246,
+    "title": "Жылдам, тез",
+    "is_right": "TRUE",
+    "question_id": 246
+  },
+  {
+    "id": 247,
+    "title": "Аз",
+    "is_right": "TRUE",
+    "question_id": 247
+  },
+  {
+    "id": 248,
+    "title": "Елші, пайғамбар",
+    "is_right": "TRUE",
+    "question_id": 248
+  },
+  {
+    "id": 249,
+    "title": "Пайғамбар",
+    "is_right": "TRUE",
+    "question_id": 249
+  },
+  {
+    "id": 250,
+    "title": "Пайғамбарлар",
+    "is_right": "TRUE",
+    "question_id": 250
+  },
+  {
+    "id": 251,
+    "title": "Белгі, Мұғжиза",
+    "is_right": "TRUE",
+    "question_id": 251
+  },
+  {
+    "id": 252,
+    "title": "Анық, айқын",
+    "is_right": "TRUE",
+    "question_id": 252
+  },
+  {
+    "id": 253,
+    "title": "Шайтан, жын",
+    "is_right": "TRUE",
+    "question_id": 253
+  },
+  {
+    "id": 254,
+    "title": "Тау",
+    "is_right": "TRUE",
+    "question_id": 254
+  },
+  {
+    "id": 255,
+    "title": "Теңіз",
+    "is_right": "TRUE",
+    "question_id": 255
+  },
+  {
+    "id": 256,
+    "title": "Күн",
+    "is_right": "TRUE",
+    "question_id": 256
+  },
+  {
+    "id": 257,
+    "title": "Ай",
+    "is_right": "TRUE",
+    "question_id": 257
+  },
+  {
+    "id": 258,
+    "title": "Түн",
+    "is_right": "TRUE",
+    "question_id": 258
+  },
+  {
+    "id": 259,
+    "title": "Күндіз",
+    "is_right": "TRUE",
+    "question_id": 259
+  },
+  {
+    "id": 260,
+    "title": "Жер",
+    "is_right": "TRUE",
+    "question_id": 260
+  },
+  {
+    "id": 261,
+    "title": "Аспан",
+    "is_right": "TRUE",
+    "question_id": 261
+  },
+  {
+    "id": 262,
+    "title": "Жаза, шара",
+    "is_right": "TRUE",
+    "question_id": 262
+  },
+  {
+    "id": 263,
+    "title": "Соңы, ақыры",
+    "is_right": "TRUE",
+    "question_id": 263
+  },
+  {
+    "id": 264,
+    "title": "Азап",
+    "is_right": "TRUE",
+    "question_id": 264
+  },
+  {
+    "id": 265,
+    "title": "Қиямет",
+    "is_right": "TRUE",
+    "question_id": 265
+  },
+  {
+    "id": 266,
+    "title": "Кездесу",
+    "is_right": "TRUE",
+    "question_id": 266
+  },
+  {
+    "id": 267,
+    "title": "Жолдас, дос",
+    "is_right": "TRUE",
+    "question_id": 267
+  },
+  {
+    "id": 268,
+    "title": "От, тозақ",
+    "is_right": "TRUE",
+    "question_id": 268
+  },
+  {
+    "id": 269,
+    "title": "Өзен",
+    "is_right": "TRUE",
+    "question_id": 269
+  },
+  {
+    "id": 270,
+    "title": "Бәле, қасірет! Бәле келсін!",
+    "is_right": "TRUE",
+    "question_id": 270
+  },
+  {
+    "id": 271,
+    "title": "Күн",
+    "is_right": "TRUE",
+    "question_id": 271
+  },
+  {
+    "id": 272,
+    "title": "Сол күні",
+    "is_right": "TRUE",
+    "question_id": 272
+  },
+  {
+    "id": 273,
+    "title": "Ешқашан",
+    "is_right": "TRUE",
+    "question_id": 273
+  },
+  {
+    "id": 274,
+    "title": "Сауап, сый",
+    "is_right": "TRUE",
+    "question_id": 274
+  },
+  {
+    "id": 275,
+    "title": "Ажал, мезгіл",
+    "is_right": "TRUE",
+    "question_id": 275
+  },
+  {
+    "id": 276,
+    "title": "Бақша, Жәннат",
+    "is_right": "TRUE",
+    "question_id": 276
+  },
+  {
+    "id": 277,
+    "title": "Сауап",
+    "is_right": "TRUE",
+    "question_id": 277
+  },
+  {
+    "id": 278,
+    "title": "Есеп-қисап",
+    "is_right": "TRUE",
+    "question_id": 278
+  },
+  {
+    "id": 279,
+    "title": "Іс, жұмыс, жағдай",
+    "is_right": "TRUE",
+    "question_id": 279
+  },
+  {
+    "id": 280,
+    "title": "Тақуа",
+    "is_right": "TRUE",
+    "question_id": 280
+  },
+  {
+    "id": 281,
+    "title": "Хақ, шын",
+    "is_right": "TRUE",
+    "question_id": 281
+  },
+  {
+    "id": 282,
+    "title": "Жалған",
+    "is_right": "TRUE",
+    "question_id": 282
+  },
+  {
+    "id": 283,
+    "title": "Хикмет, даналық",
+    "is_right": "TRUE",
+    "question_id": 283
+  },
+  {
+    "id": 284,
+    "title": "Мақтау",
+    "is_right": "TRUE",
+    "question_id": 284
+  },
+  {
+    "id": 285,
+    "title": "Дін",
+    "is_right": "TRUE",
+    "question_id": 285
+  },
+  {
+    "id": 286,
+    "title": "Зекет",
+    "is_right": "TRUE",
+    "question_id": 286
+  },
+  {
+    "id": 287,
+    "title": "Шәһид, құрбан",
+    "is_right": "TRUE",
+    "question_id": 287
+  },
+  {
+    "id": 288,
+    "title": "Намаз",
+    "is_right": "TRUE",
+    "question_id": 288
+  },
+  {
+    "id": 289,
+    "title": "Анық",
+    "is_right": "TRUE",
+    "question_id": 289
+  },
+  {
+    "id": 290,
+    "title": "Нұр",
+    "is_right": "TRUE",
+    "question_id": 290
+  },
+  {
+    "id": 291,
+    "title": "Ахирет",
+    "is_right": "TRUE",
+    "question_id": 291
+  },
+  {
+    "id": 292,
+    "title": "Қатты азап",
+    "is_right": "TRUE",
+    "question_id": 292
+  },
+  {
+    "id": 293,
+    "title": "Тозақ",
+    "is_right": "TRUE",
+    "question_id": 293
+  },
+  {
+    "id": 294,
+    "title": "Жалғыз, біреу",
+    "is_right": "TRUE",
+    "question_id": 294
+  },
+  {
+    "id": 295,
+    "title": "Құдай, тәңір",
+    "is_right": "TRUE",
+    "question_id": 295
+  },
+  {
+    "id": 296,
+    "title": "Жалған құдай, серіктес",
+    "is_right": "TRUE",
+    "question_id": 296
+  },
+  {
+    "id": 297,
+    "title": "Куәлік, куәлік ету",
+    "is_right": "TRUE",
+    "question_id": 297
+  },
+  {
+    "id": 298,
+    "title": "Аршы",
+    "is_right": "TRUE",
+    "question_id": 298
+  },
+  {
+    "id": 299,
+    "title": "Уәде",
+    "is_right": "TRUE",
+    "question_id": 299
+  },
+  {
+    "id": 300,
+    "title": "Ғайб, тылсым, жұмбақ әлем",
+    "is_right": "TRUE",
+    "question_id": 300
+  },
+  {
+    "id": 301,
+    "title": "Кітап",
+    "is_right": "TRUE",
+    "question_id": 301
+  },
+  {
+    "id": 302,
+    "title": "Сөз",
+    "is_right": "TRUE",
+    "question_id": 302
+  },
+  {
+    "id": 303,
+    "title": "Періште",
+    "is_right": "TRUE",
+    "question_id": 303
+  },
+  {
+    "id": 304,
+    "title": "Жалғыз, біреу",
+    "is_right": "TRUE",
+    "question_id": 304
+  },
+  {
+    "id": 305,
+    "title": "Амалдар, жұмыстар",
+    "is_right": "TRUE",
+    "question_id": 305
+  },
+  {
+    "id": 306,
+    "title": "Ізгі амал, Жақсы іс",
+    "is_right": "TRUE",
+    "question_id": 306
+  },
+  {
+    "id": 307,
+    "title": "Жаман іс, Жаман әрекет",
+    "is_right": "TRUE",
+    "question_id": 307
+  },
+  {
+    "id": 308,
+    "title": "Хайыр, жақсы",
+    "is_right": "TRUE",
+    "question_id": 308
+  },
+  {
+    "id": 309,
+    "title": "Зиян, жамандық",
+    "is_right": "TRUE",
+    "question_id": 309
+  },
+  {
+    "id": 310,
+    "title": "Күнә",
+    "is_right": "TRUE",
+    "question_id": 310
+  },
+  {
+    "id": 311,
+    "title": "Күнә, қателік (зәнб)",
+    "is_right": "TRUE",
+    "question_id": 311
+  },
+  {
+    "id": 312,
+    "title": "Күнә, айып (джунәх)",
+    "is_right": "TRUE",
+    "question_id": 312
+  },
+  {
+    "id": 313,
+    "title": "Харам",
+    "is_right": "TRUE",
+    "question_id": 313
+  },
+  {
+    "id": 314,
+    "title": "Есім",
+    "is_right": "TRUE",
+    "question_id": 314
+  },
+  {
+    "id": 315,
+    "title": "Сөз, әңгіме",
+    "is_right": "TRUE",
+    "question_id": 315
+  },
+  {
+    "id": 316,
+    "title": "Жақсы",
+    "is_right": "TRUE",
+    "question_id": 316
+  },
+  {
+    "id": 317,
+    "title": "Игілік",
+    "is_right": "TRUE",
+    "question_id": 317
+  },
+  {
+    "id": 318,
+    "title": "Дәлел",
+    "is_right": "TRUE",
+    "question_id": 318
+  },
+  {
+    "id": 319,
+    "title": "Нығмет, кеңшілік",
+    "is_right": "TRUE",
+    "question_id": 319
+  },
+  {
+    "id": 320,
+    "title": "Су",
+    "is_right": "TRUE",
+    "question_id": 320
+  },
+  {
+    "id": 321,
+    "title": "Мүлк,  патшалық",
+    "is_right": "TRUE",
+    "question_id": 321
+  },
+  {
+    "id": 322,
+    "title": "Нығмет, молшылық",
+    "is_right": "TRUE",
+    "question_id": 322
+  },
+  {
+    "id": 323,
+    "title": "Барлығы",
+    "is_right": "TRUE",
+    "question_id": 323
+  },
+  {
+    "id": 324,
+    "title": "Рұқсат",
+    "is_right": "TRUE",
+    "question_id": 324
+  },
+  {
+    "id": 325,
+    "title": "Барлығы, жиынтық",
+    "is_right": "TRUE",
+    "question_id": 325
+  },
+  {
+    "id": 326,
+    "title": "Бірдей",
+    "is_right": "TRUE",
+    "question_id": 326
+  },
+  {
+    "id": 327,
+    "title": "Топ, бөлік",
+    "is_right": "TRUE",
+    "question_id": 327
+  },
+  {
+    "id": 328,
+    "title": "Үй",
+    "is_right": "TRUE",
+    "question_id": 328
+  },
+  {
+    "id": 329,
+    "title": "Мекен, баспана",
+    "is_right": "TRUE",
+    "question_id": 329
+  },
+  {
+    "id": 330,
+    "title": "Дүние",
+    "is_right": "TRUE",
+    "question_id": 330
+  },
+  {
+    "id": 331,
+    "title": "Жол",
+    "is_right": "TRUE",
+    "question_id": 331
+  },
+  {
+    "id": 332,
+    "title": "Жол",
+    "is_right": "TRUE",
+    "question_id": 332
+  },
+  {
+    "id": 333,
+    "title": "Әлем",
+    "is_right": "TRUE",
+    "question_id": 333
+  },
+  {
+    "id": 334,
+    "title": "Бүлік, Сынақ",
+    "is_right": "TRUE",
+    "question_id": 334
+  },
+  {
+    "id": 335,
+    "title": "Елді мекен, ауылдық жер",
+    "is_right": "TRUE",
+    "question_id": 335
+  },
+  {
+    "id": 336,
+    "title": "Мал-дүние",
+    "is_right": "TRUE",
+    "question_id": 336
+  },
+  {
+    "id": 337,
+    "title": "Ризық, зат, нәрсе",
+    "is_right": "TRUE",
+    "question_id": 337
+  },
+  {
+    "id": 338,
+    "title": "Мешіт",
+    "is_right": "TRUE",
+    "question_id": 338
+  },
+  {
+    "id": 339,
+    "title": "Үммет, халық",
+    "is_right": "TRUE",
+    "question_id": 339
+  },
+  {
+    "id": 340,
+    "title": "Адам, адамзат",
+    "is_right": "TRUE",
+    "question_id": 340
+  },
+  {
+    "id": 341,
+    "title": "Ер адам",
+    "is_right": "TRUE",
+    "question_id": 341
+  },
+  {
+    "id": 342,
+    "title": "Әйел адам",
+    "is_right": "TRUE",
+    "question_id": 342
+  },
+  {
+    "id": 343,
+    "title": "Құл, пенде",
+    "is_right": "TRUE",
+    "question_id": 343
+  },
+  {
+    "id": 344,
+    "title": "Жау",
+    "is_right": "TRUE",
+    "question_id": 344
+  },
+  {
+    "id": 345,
+    "title": "Кәпір",
+    "is_right": "TRUE",
+    "question_id": 345
+  },
+  {
+    "id": 346,
+    "title": "Күнәһар, қылмыскер",
+    "is_right": "TRUE",
+    "question_id": 346
+  },
+  {
+    "id": 347,
+    "title": "Уәзір, мырзалар",
+    "is_right": "TRUE",
+    "question_id": 347
+  },
+  {
+    "id": 348,
+    "title": "Уәли, қамқоршы",
+    "is_right": "TRUE",
+    "question_id": 348
+  },
+  {
+    "id": 349,
+    "title": "Мекен, орын",
+    "is_right": "TRUE",
+    "question_id": 349
+  },
+  {
+    "id": 350,
+    "title": "Иесі",
+    "is_right": "TRUE",
+    "question_id": 350
+  },
+  {
+    "id": 351,
+    "title": "Жақын адамдар, отбасы мүшелері",
+    "is_right": "TRUE",
+    "question_id": 351
+  },
+  {
+    "id": 352,
+    "title": "Отбасы",
+    "is_right": "TRUE",
+    "question_id": 352
+  },
+  {
+    "id": 353,
+    "title": "Біліп қойыңдар!",
+    "is_right": "TRUE",
+    "question_id": 353
+  },
+  {
+    "id": 354,
+    "title": "Қандай керемет?!",
+    "is_right": "TRUE",
+    "question_id": 354
+  },
+  {
+    "id": 355,
+    "title": "Қандай жаман?!",
+    "is_right": "TRUE",
+    "question_id": 355
+  },
+  {
+    "id": 356,
+    "title": "Жаман",
+    "is_right": "TRUE",
+    "question_id": 356
+  },
+  {
+    "id": 357,
+    "title": "Қасында",
+    "is_right": "TRUE",
+    "question_id": 357
+  },
+  {
+    "id": 358,
+    "title": "Ұқсас",
+    "is_right": "TRUE",
+    "question_id": 358
+  },
+  {
+    "id": 359,
+    "title": "Мысал",
+    "is_right": "TRUE",
+    "question_id": 359
+  },
+  {
+    "id": 360,
+    "title": "Жанында, маңында",
+    "is_right": "TRUE",
+    "question_id": 360
+  },
+  {
+    "id": 361,
+    "title": "Бәлкім, бірақ, керісінше",
+    "is_right": "TRUE",
+    "question_id": 361
+  },
+  {
+    "id": 362,
+    "title": "Сосын, кейін",
+    "is_right": "TRUE",
+    "question_id": 362
+  },
+  {
+    "id": 363,
+    "title": "Бұрын",
+    "is_right": "TRUE",
+    "question_id": 363
+  },
+  {
+    "id": 364,
+    "title": "Кейін",
+    "is_right": "TRUE",
+    "question_id": 364
+  },
+  {
+    "id": 365,
+    "title": "Біраз уақыт, уақытша",
+    "is_right": "TRUE",
+    "question_id": 365
+  },
+  {
+    "id": 366,
+    "title": "Үстінде",
+    "is_right": "TRUE",
+    "question_id": 366
+  },
+  {
+    "id": 367,
+    "title": "Астында",
+    "is_right": "TRUE",
+    "question_id": 367
+  },
+  {
+    "id": 368,
+    "title": "Арасында",
+    "is_right": "TRUE",
+    "question_id": 368
+  },
+  {
+    "id": 369,
+    "title": "Артында",
+    "is_right": "TRUE",
+    "question_id": 369
+  },
+  {
+    "id": 370,
+    "title": "Алдында",
+    "is_right": "TRUE",
+    "question_id": 370
+  },
+  {
+    "id": 371,
+    "title": "Дәл артында",
+    "is_right": "TRUE",
+    "question_id": 371
+  },
+  {
+    "id": 372,
+    "title": "Оң жақ",
+    "is_right": "TRUE",
+    "question_id": 372
+  },
+  {
+    "id": 373,
+    "title": "Сол жақ",
+    "is_right": "TRUE",
+    "question_id": 373
+  },
+  {
+    "id": 374,
+    "title": "Арасы",
+    "is_right": "TRUE",
+    "question_id": 374
+  },
+  {
+    "id": 375,
+    "title": "Айналасы",
+    "is_right": "TRUE",
+    "question_id": 375
+  },
+  {
+    "id": 376,
+    "title": "Қалаған жерден",
+    "is_right": "TRUE",
+    "question_id": 376
+  },
+  {
+    "id": 377,
+    "title": "Қай жерде болсада",
+    "is_right": "TRUE",
+    "question_id": 377
+  },
+  {
+    "id": 378,
+    "title": "Не?",
+    "is_right": "TRUE",
+    "question_id": 378
+  },
+  {
+    "id": 379,
+    "title": "Кім?",
+    "is_right": "TRUE",
+    "question_id": 379
+  },
+  {
+    "id": 380,
+    "title": "Қашан?",
+    "is_right": "TRUE",
+    "question_id": 380
+  },
+  {
+    "id": 381,
+    "title": "Қайда?",
+    "is_right": "TRUE",
+    "question_id": 381
+  },
+  {
+    "id": 382,
+    "title": "Қалай?",
+    "is_right": "TRUE",
+    "question_id": 382
+  },
+  {
+    "id": 383,
+    "title": "Қанша?",
+    "is_right": "TRUE",
+    "question_id": 383
+  },
+  {
+    "id": 384,
+    "title": "Қай?",
+    "is_right": "TRUE",
+    "question_id": 384
+  },
+  {
+    "id": 385,
+    "title": "Қалайша?",
+    "is_right": "TRUE",
+    "question_id": 385
+  },
+  {
+    "id": 386,
+    "title": "ма? ме? ба? бе?",
+    "is_right": "TRUE",
+    "question_id": 386
+  },
+  {
+    "id": 387,
+    "title": "Не?",
+    "is_right": "TRUE",
+    "question_id": 387
+  },
+  {
+    "id": 388,
+    "title": "Не үшін?",
+    "is_right": "TRUE",
+    "question_id": 388
+  },
+  {
+    "id": 389,
+    "title": "Тек қана, бар болғаны",
+    "is_right": "TRUE",
+    "question_id": 389
+  }
+]
